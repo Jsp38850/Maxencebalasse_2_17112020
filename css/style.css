@@ -1,4 +1,4 @@
-@import  url ( 'https://fonts.googleapis.com/css?family=Raleway:300,700' );
+@import url ( 'https://fonts.googleapis.com/css?family=Raleway:300,700');
 
 /*Header*/
 
@@ -6,124 +6,144 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-  
-  }
+}
 
 
+/*Style du menu*/
 
-  /*Style du menu*/
-
-  nav li {
+nav li {
     list-style-type: none;
     float: left;
     margin: 15px;
-   
-  }
+}
 
-  nav{
-      margin-right: 2%;
-  }
+nav {
+    margin-right: 2%;
+}
 
-  nav a
-{
+nav a {
     font-size: 1.3em;
     color: black;
     padding-top: 20px;
     text-decoration: none;
 }
 
-nav a:hover
-{
+nav a:hover {
     color: #0065FC;
     border-top: 3px solid #0065FC;
 }
 
 
+/*Style du logo*/
 
-
-  /*Style du logo*/
-  .logo{
-      width: 150px;
-      margin-left: 1%;
-  }
-
-/***********************************/
-
-/*Section 1*/
-
-#section1{
-    display: flex;
-    flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: start;
-  align-items: auto;
-  align-content: start;
-  margin-left: 1%;
+.logo {
+    width: 150px;
+    margin-left: 1%;
 }
 
 
-/*Section2*/
+/***********************************/
+
+
+/*Section 1*/
+
+#section1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    align-items: auto;
+    align-content: start;
+    margin-left: 1%;
+}
+
+
+/*Block3 Hebergement+Populaire*/
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+/*Section2 hebergement */
 
 #section2 {
+    width: 786px;
+    background-color: #F2F2F2;
+    padding: 20px;
+    border-radius: 17px;
+    margin: 0;
+    margin-right: 40px;
+}
+
+.titre {
     display: flex;
-	flex-wrap: nowrap;
-	width: 786px;
-	background-color: #F2F2F2;
-	padding: 20px;
-	border-radius: 17px;
-	margin: 0;
-	margin-right: 40px;
-  }
-  
-  .colonne1 img{
+    flex-wrap: wrap;
+}
+
+.casse {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.casse img {
     height: 110px;
-	width:230px;
-	border-top-right-radius: 17px;
-	border-top-left-radius: 17px;
-	object-fit: cover;
-  }
+    width: 230px;
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px;
+    object-fit: cover;
+}
 
-  #section3 img{
-      width: 15%;
-  }
 
-  #section4 img{
+/*Section3 Populaire*/
+
+#section3 {
+    width: 786px;
+    background-color: #F2F2F2;
+    padding: 20px;
+    border-radius: 17px;
+    margin: 0;
+    margin-right: 40px;
+}
+
+.titre2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.casse2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.casse2 img {
+    height: 110px;
+    width: 230px;
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px;
+    object-fit: cover;
+}
+
+#section4 img {
     width: 15%;
 }
 
 
+/*Section 4 Activité à Marseille*/
 
 
-footer{
+/*Pied de page*/
+
+footer {
     background-color: #f2f2f2;
     display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: auto;
-  align-content: start
-}
-
-.ligne1{
-    height: 70%;
-    background-color: white;
-    border-color: black;
-    display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: start;
+    justify-content: space-around;
     align-items: auto;
     align-content: start
-
-}
-
-.ligne2{
-    height: 30%;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: start;
-    align-items: auto;
-    align-content: start
-
 }
