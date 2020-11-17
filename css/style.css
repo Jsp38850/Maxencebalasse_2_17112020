@@ -1,7 +1,10 @@
-.logodiv {
+@import  url ( 'https://fonts.googleapis.com/css?family=Raleway:300,700' );
+
+/*Header*/
+
+header {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-between;
   
   }
@@ -10,18 +13,18 @@
 
   /*Style du menu*/
 
-  .nav li {
+  nav li {
     list-style-type: none;
     float: left;
     margin: 15px;
    
   }
 
-  .nav{
+  nav{
       margin-right: 2%;
   }
 
-  .nav a
+  nav a
 {
     font-size: 1.3em;
     color: black;
@@ -29,7 +32,7 @@
     text-decoration: none;
 }
 
-.nav a:hover
+nav a:hover
 {
     color: #0065FC;
     border-top: 3px solid #0065FC;
@@ -44,17 +47,13 @@
       margin-left: 1%;
   }
 
-  #bloc_page
-{
-    width: 100%;
-    margin: auto;
-}
+/***********************************/
 
 /*Section 1*/
 
 #section1{
     display: flex;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
   flex-direction: column;
   justify-content: start;
   align-items: auto;
@@ -67,32 +66,36 @@
 
 #section2 {
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: auto;
-    align-content: start;
-    flex: 1 0 auto;
-    margin: 5px;
+	flex-wrap: nowrap;
+	width: 786px;
+	background-color: #F2F2F2;
+	padding: 20px;
+	border-radius: 17px;
+	margin: 0;
+	margin-right: 40px;
   }
   
-  .hebergement img{
-
-    width: 20%;
+  .colonne1 img{
+    height: 110px;
+	width:230px;
+	border-top-right-radius: 17px;
+	border-top-left-radius: 17px;
+	object-fit: cover;
   }
 
-  .populaire img{
-
-    width: 20%;
+  #section3 img{
+      width: 15%;
   }
 
-  .activite img{
+  #section4 img{
+    width: 15%;
+}
 
-    width: 25%;
-  }
+
 
 
 footer{
+    background-color: #f2f2f2;
     display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -102,9 +105,10 @@ footer{
 }
 
 .ligne1{
+    height: 70%;
     background-color: white;
     border-color: black;
-    display: inline-flex;
+    display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: start;
@@ -114,7 +118,8 @@ footer{
 }
 
 .ligne2{
-    display: inline-flex;
+    height: 30%;
+    display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: start;
