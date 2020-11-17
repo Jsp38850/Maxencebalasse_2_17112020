@@ -1,9 +1,18 @@
+/**Css Menu**/
+
+#nav li {
+    display: inline;
+  }
+
+
+
+/**Css footer**/
 .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
-    background-color: f2f2f2;
+    background-color: #f2f2f2;
   }
   .colune1 {
     grid-column: 1;
