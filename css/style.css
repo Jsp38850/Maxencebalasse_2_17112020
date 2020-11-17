@@ -1,8 +1,19 @@
+.containerheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 95px;
+}
 /**Css Menu**/
 
-#nav li {
+.headerNav li {
     display: inline;
   }
+
+
 
 
 
