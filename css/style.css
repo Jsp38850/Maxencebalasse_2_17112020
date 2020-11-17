@@ -100,3 +100,23 @@ footer{
   align-items: auto;
   align-content: start
 }
+
+.ligne1{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: auto;
+    align-content: start
+
+}
+
+.ligne2{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: auto;
+    align-content: start
+
+}
