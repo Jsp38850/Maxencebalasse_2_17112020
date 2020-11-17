@@ -1,39 +1,102 @@
-.containerheader {
+.logodiv {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+  
+  }
+
+
+
+  /*Style du menu*/
+
+  .nav li {
+    list-style-type: none;
+    float: left;
+    margin: 15px;
+   
+  }
+
+  .nav{
+      margin-right: 2%;
+  }
+
+  .nav a
+{
+    font-size: 1.3em;
+    color: black;
+    padding-top: 20px;
+    text-decoration: none;
 }
 
-.logo{
-    width: 95px;
+.nav a:hover
+{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
 }
-/**Css Menu**/
 
-.headerNav li {
-    display: inline;
+
+
+
+  /*Style du logo*/
+  .logo{
+      width: 150px;
+      margin-left: 1%;
+  }
+
+  #bloc_page
+{
+    width: 100%;
+    margin: auto;
+}
+
+/*Section 1*/
+
+#section1{
+    display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: start;
+  align-items: auto;
+  align-content: start;
+  margin-left: 1%;
+}
+
+
+/*Section2*/
+
+#section2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: auto;
+    align-content: start;
+    flex: 1 0 auto;
+    margin: 5px;
+  }
+  
+  .hebergement img{
+
+    width: 20%;
+  }
+
+  .populaire img{
+
+    width: 20%;
+  }
+
+  .activite img{
+
+    width: 25%;
   }
 
 
-
-
-
-/**Css footer**/
-.footer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-    background-color: #f2f2f2;
-  }
-  .colune1 {
-    grid-column: 1;
-    grid-row: 1;
-  }
-  .colune2 {
-    grid-column: 2;
-    grid-row: 1;
-  }
-  .colune3 {
-    grid-column: 3;
-    grid-row: 1;
-  }
+footer{
+    display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: auto;
+  align-content: start
+}
