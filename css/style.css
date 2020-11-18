@@ -68,7 +68,7 @@ nav a:hover {
     flex-wrap: nowrap;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 600px) {
     .container {
         display: flex;
         flex-wrap: wrap;
