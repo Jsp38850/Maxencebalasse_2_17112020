@@ -121,6 +121,7 @@ nav a:hover {
     
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .casse img {
@@ -129,6 +130,13 @@ nav a:hover {
     border-top-right-radius: 17px;
     border-top-left-radius: 17px;
     object-fit: cover;
+    
+}
+
+.hebergement{
+    background-color: white;
+    margin: 2%;
+    border-radius: 17px;
 }
 
 .cassebas {
@@ -171,11 +179,21 @@ nav a:hover {
 
 .casse2 img {
     height: 110px;
-    width: 230px;
-    border-top-right-radius: 17px;
+    width: 120px;
     border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
     object-fit: cover;
     
+}
+
+.populaire{
+    display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  background-color: white;
+  border-radius: 17px;
+
+
 }
 
 
