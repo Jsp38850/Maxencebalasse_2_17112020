@@ -47,7 +47,7 @@ nav a:hover {
 }
 
 .divlogo {
-    margin-left: 2px;
+    margin-left: 2%;
 }
 
 
@@ -65,6 +65,28 @@ nav a:hover {
     align-content: start;
     margin-left: 2%;
 }
+
+.filter{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bouton{
+    border-radius: 17px;
+    background-color: white;
+    margin: 2%;
+    height: 30px;
+
+}
+
+.bouton:hover {
+    border-radius: 17px;
+    background-color: rgb(55, 10, 255);
+    margin: 2%;
+    height: 30px;
+
+}
+
 
 
 /*Block3 Hebergement+Populaire*/
@@ -96,12 +118,26 @@ nav a:hover {
 }
 
 .casse {
-    width: 100%;
+    
     display: flex;
     flex-wrap: wrap;
 }
 
 .casse img {
+    height: 110px;
+    width: 230px;
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px;
+    object-fit: cover;
+}
+
+.cassebas {
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cassebas img {
     height: 110px;
     width: 230px;
     border-top-right-radius: 17px;
@@ -117,8 +153,7 @@ nav a:hover {
     background-color: #F2F2F2;
     padding: 20px;
     border-radius: 17px;
-    margin: 0;
-    margin-right: 40px;
+    margin-right: 2%;
    
 }
 
@@ -130,8 +165,8 @@ nav a:hover {
 .casse2 {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    
 }
 
 .casse2 img {
@@ -140,6 +175,7 @@ nav a:hover {
     border-top-right-radius: 17px;
     border-top-left-radius: 17px;
     object-fit: cover;
+    
 }
 
 
