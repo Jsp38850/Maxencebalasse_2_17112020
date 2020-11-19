@@ -88,15 +88,14 @@ nav a:hover {
     background-color: white;
     margin-right: 2%;
     margin-left: 2%;
-   
-   display: flex;
+    display: flex;
     cursor: pointer;
     width: 200px;
 
 }
 
 i{
-    color: royalblue;
+    color: #0065FC;
     background-color:#DEEBFF;
     padding: 1em;
     border-radius: 17px;
@@ -112,12 +111,63 @@ i{
     margin-bottom:  5px;
 }
 
-.recherche{
-    background-color: red;
-    border-color: black;
-    border-radius: 17px;
-    width: 300px;
+.recherchebarre
+{
+	display: flex;
+	margin-top: 20px;
 }
+
+input
+{	
+	height: 35px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius:10px;
+	border: none;
+	display: flex;
+	align-items:center;
+	margin-left: 7px;
+}
+
+.iconemap
+{
+	background-color:#F2F2F2; 
+	height:40px;
+	width: 30px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px; 
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
+.iconeinput
+{
+	border:solid;
+	border-width: 1px;
+	border-color:#F2F2F2;
+	display: flex;
+	flex-direction: row;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px; 
+}
+
+
+.recherche
+{
+	background-color: #0065FC;
+	border:none;
+	color: white;
+	height: 42px;
+	border-bottom-right-radius:10px;
+	border-top-right-radius: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+    font-weight: bold;
+   
+}
+
+
+
 /*Block3 Hebergement+Populaire*/
 
 .container {
@@ -151,6 +201,7 @@ i{
     
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     
 }
 
@@ -173,6 +224,7 @@ i{
     
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .cassebas img {
@@ -187,11 +239,11 @@ i{
 /*Section3 Populaire*/
 
 #section3 {
-    width: 30%;
+    width: 20%;
     background-color: #F2F2F2;
     padding: 20px;
     border-radius: 17px;
-    margin-right: 2%;
+
    
 }
 
@@ -226,6 +278,20 @@ i{
 
 }
 
+.texte1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.texte1 h3{
+    margin-top: 10px;
+    
+}
+
+.texte1 p{
+    margin: 0;
+}
 
 /*Section 4 Activité à Marseille*/
 
@@ -244,7 +310,7 @@ i{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;    
    }
 
 .casse3 img {
@@ -261,8 +327,28 @@ i{
     background-color: white;
     border-radius: 17px;
     box-shadow: 0 0 1em grey;
+    height: 100%;
 }
 
+.range1{
+    display: flex;
+    flex-direction: column;
+}
+
+.range2{
+    display: flex;
+    flex-direction: column;
+}
+
+.range3{
+    display: flex;
+    flex-direction: column;
+}
+
+.range4{
+    display: flex;
+    flex-direction: column;
+}
 
 /*Pied de page*/
 
@@ -276,5 +362,10 @@ footer {
     align-items: auto;
     align-content: start
 }
+
+
+
+
+
 
 
