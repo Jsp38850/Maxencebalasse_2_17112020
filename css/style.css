@@ -200,9 +200,7 @@ nav a:hover {
 /*Section 4 Activité à Marseille*/
 
 #section4 {
-    background-color: #F2F2F2;
-    border-radius: 17px;
-    margin: 2%;
+     margin: 2%;
 }
 
 .titre3 {
@@ -222,8 +220,7 @@ nav a:hover {
 .casse3 img {
     height: 110px;
     width: 230px;
-    border-top-right-radius: 17px;
-    border-top-left-radius: 17px;
+    border-radius: 17px;
     object-fit: cover;
 }
 
