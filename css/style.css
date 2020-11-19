@@ -16,6 +16,7 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+
 }
 
 
@@ -73,37 +74,57 @@ nav a:hover {
     align-content: start;
     margin-left: 2%;
     
+    
 }
 
 .filter{
     display: flex;
-    flex-wrap: wrap;
+    margin-top: 1%;
+
 }
 
 .bouton{
     border-radius: 17px;
     background-color: white;
-    margin: 2%;
-    height: 30px;
+    margin-right: 2%;
+    margin-left: 2%;
+   
+   display: flex;
+    cursor: pointer;
+    width: 200px;
 
 }
 
-.bouton:hover {
+i{
+    color: royalblue;
+    background-color:#DEEBFF;
+    padding: 1em;
     border-radius: 17px;
-    background-color: rgb(55, 10, 255);
-    margin: 2%;
-    height: 30px;
-
 }
 
 
 
+.titre1 p{
+    margin-top:  2px;
+}
+
+.titre1 h2{
+    margin-bottom:  5px;
+}
+
+.recherche{
+    background-color: red;
+    border-color: black;
+    border-radius: 17px;
+    width: 300px;
+}
 /*Block3 Hebergement+Populaire*/
 
 .container {
     display: flex;
     flex-wrap: nowrap;
     height: 800px;
+    margin-top: 40px;
 }
 
 
@@ -255,3 +276,5 @@ footer {
     align-items: auto;
     align-content: start
 }
+
+
