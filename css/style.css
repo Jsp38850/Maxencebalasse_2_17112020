@@ -1,4 +1,10 @@
 @import url ( 'https://fonts.googleapis.com/css?family=Raleway:300,700');
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
 
 /*Header*/
 
@@ -41,7 +47,7 @@ nav a:hover {
 }
 
 .divlogo {
-    margin-left: 2%;
+    margin-left: 2px;
 }
 
 
@@ -66,25 +72,22 @@ nav a:hover {
 .container {
     display: flex;
     flex-wrap: nowrap;
+    height: 800px;
 }
 
-@media screen and (max-width: 600px) {
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: 2%;
-    }
-}
+
 
 
 /*Section2 hebergement */
 
 #section2 {
-    width: 786px;
+    width: 66%;
     background-color: #F2F2F2;
     padding: 20px;
     border-radius: 17px;
-    margin: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+   
 }
 
 .titre {
@@ -110,12 +113,13 @@ nav a:hover {
 /*Section3 Populaire*/
 
 #section3 {
-    width: 786px;
+    width: 30%;
     background-color: #F2F2F2;
     padding: 20px;
     border-radius: 17px;
     margin: 0;
     margin-right: 40px;
+   
 }
 
 .titre2 {
@@ -142,7 +146,6 @@ nav a:hover {
 /*Section 4 Activité à Marseille*/
 
 #section4 {
-    width: 98%;
     background-color: #F2F2F2;
     border-radius: 17px;
     margin: 2%;
