@@ -84,15 +84,7 @@ nav a:hover {
 }
 
 .bouton{
-    border-radius: 17px;
     background-color: white;
-    margin-right: 2%;
-    margin-left: 2%;
-    display: flex;
-    cursor: pointer;
-    width: 200px;
-    border: none;
-
 }
 
 .filter i{
@@ -100,6 +92,14 @@ nav a:hover {
     background-color:#DEEBFF;
     padding: 1em;
     border-radius: 17px;
+}
+
+#bf{
+    border-radius: 17px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 8px;
 }
 
 .titre1 p{
@@ -114,7 +114,7 @@ nav a:hover {
 .recherchebarre
 {
 	display: flex;
-	margin-top: 20px;
+
 }
 
 input
@@ -163,7 +163,6 @@ input
         padding-right: 20px;
 	    padding-left: 20px;
         cursor: pointer;
-        margin: 5px;
         font-weight: bold;
         height: 42px;
         }
@@ -292,10 +291,18 @@ input
     flex-wrap: wrap;
 }
 
-.titre2 i{
-    color: black; 
-}
 
+
+.titre21 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.titre21 h2{
+    color: black; 
+    margin: 0;
+    padding: 0;
+}
 
 
 
