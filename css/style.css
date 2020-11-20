@@ -91,6 +91,7 @@ nav a:hover {
     display: flex;
     cursor: pointer;
     width: 200px;
+    border: none;
 
 }
 
@@ -201,7 +202,7 @@ input
 .container {
     display: flex;
     flex-wrap: nowrap;
-    height: 700px;
+    height: 100%;
     margin-top: 40px;
 }
 
@@ -211,7 +212,7 @@ input
 /*Section2 hebergement */
 
 #section2 {
-    width: 66%;
+    width: 70%;
     background-color: #F2F2F2;
     padding: 20px;
     border-radius: 17px;
@@ -220,49 +221,60 @@ input
    
 }
 
-.titre {
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.casse {
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    
-}
-
-.casse img {
-    height: 110px;
-    width: 230px;
-    border-top-right-radius: 17px;
-    border-top-left-radius: 17px;
-    object-fit: cover;
-    
-}
 
 .hebergement{
     background-color: white;
     margin: 2%;
     border-radius: 17px;
+    width: 350px;
+    height: 250px;
 }
+
+.casse {
+    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+}
+
+.casse img {
+    height: 150px;
+    width: 340px;
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px;
+    object-fit: cover;
+    padding: 5px;
+    
+}
+
+
 
 .cassebas {
     
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
 }
 
 .cassebas img {
-    height: 110px;
-    width: 230px;
+    height: 150px;
+    width: 340px;
     border-top-right-radius: 17px;
     border-top-left-radius: 17px;
     object-fit: cover;
+    padding: 5px;
 }
 
+.desc h3{
+    margin-top: 10px;
+    margin-left: 20px ;
+}
+
+.desc p{
+    margin-left: 20px ;
+}
 
 /*Section3 Populaire*/
 
@@ -278,7 +290,6 @@ input
 .titre2 {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 30px;
 }
 
 .titre2 i{
@@ -296,21 +307,21 @@ input
 }
 
 .casse2 img {
-    height: 110px;
+    height: 150px;
     width: 120px;
     border-top-left-radius: 17px;
     border-bottom-left-radius: 17px;
     object-fit: cover;
+    padding: 5px;
     
 }
 
 .populaire{
     display: flex;
   flex-direction: row;
-  margin-top: 80px;
+  margin-top: 50px;
   background-color: white;
   border-radius: 17px;
-
 
 }
 
@@ -345,8 +356,9 @@ input
     width: 100%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;    
+    flex-wrap: wrap;   
+    justify-content: center;
+    height: 450px;
    }
 
 .casse3 img {
@@ -358,13 +370,23 @@ input
     
 }
 
-.activite{
+.activite2{
 
     background-color: white;
     border-radius: 17px;
     box-shadow: 0 0 1em grey;
     height: 100%;
     margin-bottom: 10px;
+    width: 100%;
+}
+
+.activite3{
+
+    background-color: white;
+    border-radius: 17px;
+    box-shadow: 0 0 1em grey;
+    height: 100%;
+    width: 100%;
 }
 
 .activite1 {
@@ -380,6 +402,7 @@ input
     background-color: white;
     border-top: 17px;
     height: 80%;
+    width: 100%;
 }
 
 
@@ -387,21 +410,28 @@ input
 .range1{
     display: flex;
     flex-direction: column;
+    margin-right: 100px;
+    width: 250px;
 }
 
 .range2{
     display: flex;
     flex-direction: column;
+    margin-right: 100px;
+    width: 250px;
 }
 
 .range3{
     display: flex;
     flex-direction: column;
+    margin-right: 100px;
+    width: 250px;
 }
 
 .range4{
     display: flex;
     flex-direction: column;
+    width: 250px;
 }
 
 /*Pied de page*/
