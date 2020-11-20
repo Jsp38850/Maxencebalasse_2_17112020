@@ -376,6 +376,10 @@ input
     
 }
 
+.casse3 p{
+
+    margin-left: 10px;
+}
 .activite2{
 
     background-color: white;
@@ -439,6 +443,7 @@ input
     flex-direction: column;
     width: 250px;
 }
+
 
 /*Pied de page*/
 
