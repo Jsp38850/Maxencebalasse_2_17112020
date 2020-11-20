@@ -227,7 +227,6 @@ input
     margin: 2%;
     border-radius: 17px;
     width: 350px;
-    height: 250px;
 }
 
 .casse {
@@ -370,7 +369,7 @@ input
 
 .casse3 img {
     height: 110px;
-    width: 230px;
+    width: 100%;
     border-top-left-radius:  17px;
     border-top-right-radius:  17px;
     object-fit: cover;
@@ -460,3 +459,36 @@ footer {
 
 
 
+
+		/*  
+		 * Rating styles
+		 */
+         .rating {
+			width: 100px;
+			font-size: 20px;
+            overflow:hidden;
+            margin-bottom: 2%;
+
+		}
+		.rating a {
+			float:right;
+			color: #aaa;
+			text-decoration: none;
+			-webkit-transition: color .4s;
+			-moz-transition: color .4s;
+			-o-transition: color .4s;
+			transition: color .4s;
+		}
+		.rating a:hover,
+		.rating a:hover ~ a,
+		.rating a:focus,
+		.rating a:focus ~ a		{
+			color: blue;
+			cursor: pointer;
+		}
+		.rating2 {
+			direction: rtl;
+		}
+		.rating2 a {
+			float:none
+		}
