@@ -94,18 +94,17 @@ nav a:hover {
 
 }
 
-i{
+.filter i{
     color: #0065FC;
     background-color:#DEEBFF;
     padding: 1em;
     border-radius: 17px;
 }
 
-
-
 .titre1 p{
     margin-top:  2px;
 }
+
 
 .titre1 h2{
     margin-bottom:  5px;
@@ -152,19 +151,48 @@ input
 }
 
 
-.recherche
+.button1 
 {
-	background-color: #0065FC;
-	border:none;
-	color: white;
-	height: 42px;
-	border-bottom-right-radius:10px;
-	border-top-right-radius: 10px;
-	padding-right: 20px;
-	padding-left: 20px;
-    font-weight: bold;
-   
+        background-color: #0065FC;
+        border-bottom-right-radius:10px;
+        border-top-right-radius: 10px;
+        border: none;
+        color: white;
+        text-align: center;
+        padding-right: 20px;
+	    padding-left: 20px;
+        cursor: pointer;
+        margin: 5px;
+        font-weight: bold;
+        height: 42px;
+        }
+
+.button1:hover
+{
+        background-color: #DEEBFF;
+        border-bottom-right-radius:10px;
+        border-top-right-radius: 10px;
+        border: none;
+        color: black;
+        text-align: center;
+        padding-right: 20px;
+	    padding-left: 20px;
+        cursor: pointer;
+        margin: 5px;
+        font-weight: bold;
+        height: 42px;
+        }
+
+.information{
+    display: flex ;
+    margin-top: 20px;
 }
+
+.information p{
+    margin: 0;
+    margin-left: 10px;
+}
+
 
 
 
@@ -250,7 +278,15 @@ input
 .titre2 {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 30px;
 }
+
+.titre2 i{
+    color: black; 
+}
+
+
+
 
 .casse2 {
     width: 100%;
@@ -323,12 +359,30 @@ input
 }
 
 .activite{
-    margin: 2%;
+
+    background-color: white;
+    border-radius: 17px;
+    box-shadow: 0 0 1em grey;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.activite1 {
+
     background-color: white;
     border-radius: 17px;
     box-shadow: 0 0 1em grey;
     height: 100%;
 }
+
+.activite1 img{
+
+    background-color: white;
+    border-top: 17px;
+    height: 80%;
+}
+
+
 
 .range1{
     display: flex;
