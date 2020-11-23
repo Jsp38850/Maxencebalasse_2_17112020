@@ -205,6 +205,14 @@ input
     margin-top: 40px;
 }
 
+@media screen and handheld{
+    .container {
+
+    flex-wrap: nowrap;
+    height: 100%;
+    margin-top: 40px;}
+}
+
 
 
 
@@ -457,13 +465,6 @@ footer {
     align-items: auto;
     align-content: start
 }
-
-
-
-
-
-
-
 
 		/*  
 		 * Rating styles
