@@ -3,6 +3,7 @@
 	src: url('../font/Raleway-VariableFont_wght.ttf');
 }
 
+
 body {
     margin: 0;
     padding: 0;
@@ -205,17 +206,7 @@ input
     margin-top: 40px;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    /* Styles pour cette Media Queries */
-    #section2 {
-
-        background-color: #ff0000;
-           
-    }
-
-
-}
-/*Section2 hebergement */
+/**Section2 hebergement **/
 
 #section2 {
     width: 70%;
