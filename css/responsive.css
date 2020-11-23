@@ -6,12 +6,57 @@
         margin-top: 40px;
     }
     #section2 {
-        width: 100%;
-        background-color: #ff1111;
+        
+        background-color: #F2F2F2;
         padding: 20px;
         border-radius: 17px;
         margin-left: 2%;
         margin-right: 2%;
        
     }
+    #section2 {
+        background-color: #F2F2F2;
+        padding: 20px;
+        border-radius: 17px;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 92%;
+    }
+    #section3 {
+        width: 92%;
+        background-color: #F2F2F2;
+        padding: 20px;
+        border-radius: 17px;
+        margin-left: 2%;
+        margin-top: 5%;
+        
+    }
+    .casse img {
+        height: 100px;
+        width: 200px;
+        border-top-right-radius: 17px;
+        border-top-left-radius: 17px;
+        object-fit: cover;
+        padding: 5px;
+        
+    }
+    .cassebas img {
+        height: 100px;
+        width: 200px;
+        border-top-right-radius: 17px;
+        border-top-left-radius: 17px;
+        object-fit: cover;
+        padding: 5px;
+    }
+
+.casse3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    height: 450px;
    }
+}
+
+  
