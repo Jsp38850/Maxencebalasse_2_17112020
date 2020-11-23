@@ -205,7 +205,7 @@ input
     margin-top: 40px;
 }
 
-@media screen and handheld{
+@media handheld {
     .container {
 
     flex-wrap: nowrap;
