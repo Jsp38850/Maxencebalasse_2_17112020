@@ -205,17 +205,16 @@ input
     margin-top: 40px;
 }
 
-@media handheld {
-    .container {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles pour cette Media Queries */
+    #section2 {
 
-    flex-wrap: nowrap;
-    height: 100%;
-    margin-top: 40px;}
+        background-color: #ff0000;
+           
+    }
+
+
 }
-
-
-
-
 /*Section2 hebergement */
 
 #section2 {
