@@ -344,6 +344,37 @@ input
     margin: 0;
 }
 
+/** Systeme d'etoile**/
+
+         .rating {
+			width: 100px;
+            overflow:hidden;
+            margin-bottom: 2%;
+
+		}
+		.rating a {
+			float:right;
+			color: #aaa;
+			text-decoration: none;
+			-webkit-transition: color .4s;
+			-moz-transition: color .4s;
+			-o-transition: color .4s;
+			transition: color .4s;
+		}
+		.rating a:hover,
+		.rating a:hover ~ a,
+		.rating a:focus,
+		.rating a:focus ~ a		{
+			color: blue;
+			cursor: pointer;
+		}
+		.rating2 {
+			direction: rtl;
+		}
+		.rating2 a {
+			float:none
+		}
+
 /*Section 4 Activité à Marseille*/
 
 #section4 {
@@ -453,37 +484,6 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: auto;
-    align-content: start
+    align-content: start;
 }
 
-		/*  
-		 * Rating styles
-		 */
-         .rating {
-			width: 100px;
-            overflow:hidden;
-            margin-bottom: 2%;
-
-		}
-		.rating a {
-			float:right;
-			color: #aaa;
-			text-decoration: none;
-			-webkit-transition: color .4s;
-			-moz-transition: color .4s;
-			-o-transition: color .4s;
-			transition: color .4s;
-		}
-		.rating a:hover,
-		.rating a:hover ~ a,
-		.rating a:focus,
-		.rating a:focus ~ a		{
-			color: blue;
-			cursor: pointer;
-		}
-		.rating2 {
-			direction: rtl;
-		}
-		.rating2 a {
-			float:none
-		}

@@ -1,6 +1,7 @@
 @media only screen and (max-device-width:480px) {
     .container {
-        display: block;
+        display: flex;
+        flex-direction: column-reverse;
         flex-wrap: nowrap;
         height: 100%;
         margin-top: 40px;
@@ -20,6 +21,7 @@
         border-radius: 17px;
         margin-left: 2%;
         margin-right: 2%;
+        margin-top: 40px;
         width: 92%;
     }
     #section3 {
@@ -28,8 +30,7 @@
         padding: 20px;
         border-radius: 17px;
         margin-left: 2%;
-        margin-top: 5%;
-        
+          
     }
     .casse img {
         height: 100px;
@@ -51,12 +52,79 @@
 
 .casse3 {
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; 
-    justify-content: center;
-    height: 450px;
-   }
+    /* display: flex; */
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    height: 100%;
 }
 
-  
+ .range1{
+     display: block;
+     width: 100%;
+ }
+
+ .range2{
+    display: block;
+    width: 100%;
+}
+
+.range3{
+    display: block;
+    width: 100%;
+}
+
+.range4{
+    display: block;
+    width: 100%;
+}
+.ensemble {
+    display: flex;
+    flex-direction: column;}
+
+    .casse {
+    
+        display: block;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        
+    }
+
+    .cassebas {
+    
+        display: block;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        
+    }
+
+    .activite1 {
+        background-color: white;
+        border-radius: 17px;
+        box-shadow: 0 0 1em grey;
+        height: 250px;}
+
+        
+    .activite2 {
+        background-color: white;
+        border-radius: 17px;
+        box-shadow: 0 0 1em grey;
+        height: 250px;}
+
+        
+    .activite3 {
+        background-color: white;
+        border-radius: 17px;
+        box-shadow: 0 0 1em grey;
+        height: 250px;}
+    
+/*Pied de page*/
+
+footer {
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
