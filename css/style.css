@@ -61,7 +61,7 @@ nav a:hover {
 }
 
 
-/***********************************/
+/*--------------------------------*/
 
 
 /*Section 1*/
@@ -248,26 +248,42 @@ input
    
 }
 
+.titre2{
+  margin-left: 2%;
+}
 
-
-.hebergement{
-    background-color: white;
-    margin: 2%;
-    border-radius: 17px;
-
+.ensemble{
+ 
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .casse {
     
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+  
     
 }
 
+.cassebas {
+    
+    display: flex;
+
+}
+
+.hebergement{
+    background-color: white;
+    margin: 2%;
+    border-radius: 17px;
+    height:230px;
+    width: 350px;
+}
+
+
+
 .casse img {
-    height: 150px;
-    width: 340px;
+    height: 100px;
+    width: 95%;
     border-top-right-radius: 17px;
     border-top-left-radius: 17px;
     object-fit: cover;
@@ -275,18 +291,9 @@ input
     
 }
 
-
-
-.cassebas {
-    
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-}
-
 .cassebas img {
-    height: 150px;
-    width: 340px;
+    height: 100px;
+    width: 95%;
     border-top-right-radius: 17px;
     border-top-left-radius: 17px;
     object-fit: cover;
@@ -301,6 +308,7 @@ input
 .desc p{
     margin-left: 20px ;
 }
+
 
 /*Section3 Populaire*/
 
@@ -336,8 +344,7 @@ input
 .casse2 {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
 
 .casse2 img {
