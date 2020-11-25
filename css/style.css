@@ -415,23 +415,33 @@ input
 /*Section 4 Activité à Marseille*/
 
 #section4 {
-     margin: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+  
 }
 
 .titre3 {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 2%;
+  margin-left: 2%;
 }
 
 .casse3 {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;   
-    justify-content: center;
+    display: flex;  
     height: 450px;
+    
+    
    }
+
+.range{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 250px;
+    flex-grow:1;
+ 
+  
+}
+   
 
 .casse3 img {
     height: 110px;
@@ -446,24 +456,7 @@ input
 
     margin-left: 10px;
 }
-.activite2{
 
-    background-color: white;
-    border-radius: 17px;
-    box-shadow: 0 0 1em grey;
-    height: 100%;
-    margin-bottom: 10px;
-    width: 100%;
-}
-
-.activite3{
-
-    background-color: white;
-    border-radius: 17px;
-    box-shadow: 0 0 1em grey;
-    height: 100%;
-    width: 100%;
-}
 
 .activite1 {
 
@@ -475,41 +468,38 @@ input
 
 .activite1 img{
 
+    border-top: 17px;
+    height: 90%;
+}
+
+.activite2{
+
     background-color: white;
+    border-radius: 17px;
+    box-shadow: 0 0 1em grey;
+    height: 50%;
+    margin-bottom: 10px;
+}
+
+.activite2 img{
+
     border-top: 17px;
     height: 80%;
-    width: 100%;
 }
 
+.activite3{
 
-
-.range1{
-    display: flex;
-    flex-direction: column;
-    margin-right: 100px;
-    width: 250px;
+    background-color: white;
+    border-radius: 17px;
+    box-shadow: 0 0 1em grey;
+    height: 50%;
 }
 
-.range2{
-    display: flex;
-    flex-direction: column;
-    margin-right: 100px;
-    width: 250px;
-}
+.activite3 img{
 
-.range3{
-    display: flex;
-    flex-direction: column;
-    margin-right: 100px;
-    width: 250px;
+    border-top: 17px;
+    height: 80%;
 }
-
-.range4{
-    display: flex;
-    flex-direction: column;
-    width: 250px;
-}
-
 
 /*Pied de page*/
 
