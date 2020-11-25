@@ -78,30 +78,59 @@ nav a:hover {
     
 }
 
-.filter{
+/*Filtre*/
+
+.general{
+    display:flex;
+    background-color:white;
+  
+  }
+
+  .titrefilter{
+      display: flex;
+      margin-right: 20px;
+
+  }
+  h5{
+    margin: 0;
+    font-size: 1em;
+    margin-top: 12px;
+  }
+  .grpfilter{
+   
+    border:solid;
+    border-color: grey;
+    border-width: 1px;
     display: flex;
-    margin-top: 1%;
-
+    flex-direction: row;
+    border-radius:20px;
+    margin-right:20px;
+    
+  }
+  
+  .iconemap1{
+    background-color:#DEEBFF; 
+    height:40px;
+    width: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+  
+  .filtre{
+    background-color:white;
+    border-radius:20px;
+    border:none;
+    flex-direction: row;
+    padding: 10px;
 }
 
-.bouton{
-    background-color: white;
-}
-
-.filter i{
-    color: #0065FC;
-    background-color:#DEEBFF;
-    padding: 1em;
-    border-radius: 17px;
-}
-
-#bf{
-    border-radius: 17px;
-    color: black;
-    font-size: 16px;
-    cursor: pointer;
-    margin-right: 8px;
-}
+    .iconemap1 i{
+      color: #0065FC;
+  }
+  
+/*------------------------------*/
 
 .titre1 p{
     margin-top:  2px;
@@ -114,7 +143,8 @@ nav a:hover {
 
 .recherchebarre
 {
-	display: flex;
+    display: flex;
+    margin-bottom: 20px;
 
 }
 
