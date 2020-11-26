@@ -524,3 +524,9 @@ footer {
     align-content: start;
 }
 
+footer p:hover {
+    
+    color: #afaeae;
+    cursor: pointer;
+  
+}
