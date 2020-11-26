@@ -1,8 +1,6 @@
 @font-face {
-	font-family: "Raleway";
-	src: url('../font/Raleway-VariableFont_wght.ttf');
+	font-family: "Raleway"; src: url('../font/Raleway-VariableFont_wght.ttf');
 }
-
 
 body {
     margin: 0;
@@ -34,6 +32,7 @@ nav {
 }
 
 nav a {
+    font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif; 
     font-size: 1.3em;
     color: black;
     padding-top: 20px;
@@ -67,6 +66,7 @@ nav a:hover {
 /*Section 1*/
 
 #section1 {
+    font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif; 
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -230,6 +230,7 @@ input
 /**Section2 hebergement **/
 
 #section2 {
+    font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif; 
     width: 70%;
     background-color: #F2F2F2;
     padding: 20px;
@@ -304,6 +305,7 @@ input
 /*Section3 Populaire*/
 
 #section3 {
+    font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif; 
     width: 20%;
     background-color: #F2F2F2;
     padding: 20px;
@@ -406,6 +408,7 @@ input
 /*Section 4 Activité à Marseille*/
 
 #section4 {
+    font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif; 
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 50px;
@@ -496,6 +499,7 @@ input
 /*Pied de page*/
 
 footer {
+    font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif; 
     width: 100%;
     background-color: #f2f2f2;
     display: flex;
