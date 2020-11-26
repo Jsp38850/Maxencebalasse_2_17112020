@@ -119,29 +119,30 @@ nav a:hover {
   }
   
   .filtre{
-    background-color:white;
     border-radius:20px;
     border:none;
     flex-direction: row;
     padding: 10px;
 }
 
+button {
+    background-color: inherit;
+}
+
 .iconemap1 i{
     color: #0065FC;
 }
 
+
 /*Effet survol filtre*/
 
-.filtre:hover{
-    cursor: pointer;
-    background-color:  #EBEBEB;
 
+.grpfilter:hover {
+    cursor: pointer;
+    background-color:  #DEEBFF;
 }
 
-.grpfilter:hover{
-    cursor: pointer;
-    background-color:  #EBEBEB;
-}
+
   
   
 /*------------------------------*/
@@ -197,7 +198,8 @@ input
 }
 
 
-.button1 
+
+.btn1 
 {
         background-color: #0065FC;
         border-bottom-right-radius:10px;
@@ -212,7 +214,7 @@ input
         height: 42px;
         }
 
-.button1:hover
+.btn1:hover
 {
         background-color: #DEEBFF;
         color: black;
