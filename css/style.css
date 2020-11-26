@@ -126,9 +126,23 @@ nav a:hover {
     padding: 10px;
 }
 
-    .iconemap1 i{
-      color: #0065FC;
-  }
+.iconemap1 i{
+    color: #0065FC;
+}
+
+/*Effet survol filtre*/
+
+.filtre:hover{
+    cursor: pointer;
+    background-color:  #EBEBEB;
+
+}
+
+.grpfilter:hover{
+    cursor: pointer;
+    background-color:  #EBEBEB;
+}
+  
   
 /*------------------------------*/
 
