@@ -143,8 +143,6 @@ button {
 }
 
 
-  
-  
 /*------------------------------*/
 
 .titre1 p{
@@ -221,16 +219,34 @@ input
         cursor: pointer;
         }
 
+/*Ligne information*/
+
 .information{
     display: flex ;
-    margin-top: 20px;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.iconeinformation{
+    border: 1px solid grey;
+    height:25px;
+    width: 25px;
+    border-radius: 20px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 7px;
 }
 
 .information p{
-    margin: 0;
-    margin-left: 10px;
+    margin: 12px;
+   
 }
 
+.iconeinformation i{
+    color: blue;
+   
+  }
 
 
 
@@ -249,7 +265,7 @@ input
     font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif; 
     width: 70%;
     background-color: #F2F2F2;
-    border-radius: 17px;
+    border-radius: 30px;
     margin-left: 2%;
     margin-right: 2%;
    
@@ -317,76 +333,203 @@ input
 }
 
 
-/*Section3 Populaire*/
+/*Section3 "Les plus populaires"/
+
+/*Block général*/
 
 #section3 {
+    display: flex;
+    flex-direction: column;
     font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif; 
     width: 20%;
     background-color: #F2F2F2;
     padding: 20px;
-    border-radius: 17px;
+    border-radius: 30px;
+    justify-content: space-around;
+  }
 
-   
-}
+  /*Block titre */
 
-.titre21 {
+.title3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.titre21 h2{
+.title3 h1{
     color: black; 
     margin: 0;
     padding: 0;
 }
 
-.casse2 {
-    width: 100%;
+/*Block Image + texte 1 */
+
+.blockpopular1{
     display: flex;
-    flex-direction: column;    
+    flex-direction: row;
+    background-color: white;
+    border-radius: 17px;
+
+}
+/*Image Block 1*/
+
+.picture1 {
+    display: flex;
+}
+.picture1 img{
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    object-fit: cover;
+    padding: 5px;
+    height: 150px;
+    width: 120px;
 }
 
-.casse2 img {
+/*Text block 1*/
+.text1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+
+}
+
+.titleblockpopular1 h2{
+    margin-bottom: 0;
+    font-size: 19px;
+    
+}
+
+.descblockpopular1 p{
+    margin-bottom: 0;
+}
+.starblockpopular1{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.starblockpopular1 p{
+    color: #0065FC;
+    font-size: 20px;
+}
+
+
+
+/*Block Image + texte 2 */
+.blockpopular2{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 17px;
+
+
+}
+
+/*Image Block 2 */
+
+.picture2 {
+    display: flex;
+}
+
+.picture2 img{
     height: 150px;
     width: 120px;
     border-top-left-radius: 17px;
     border-bottom-left-radius: 17px;
     object-fit: cover;
     padding: 5px;
-    
 }
 
-.populaire{
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-    background-color: white;
-    border-radius: 17px;
-    height: 160px;
-
-}
-
-.populaire img{
-    height: 95%;
-    border-top-left-radius: 17px;
-    object-fit: cover;
-    padding: 5px;
-
-}
-
-.texte1{
+/*Text block 2*/
+.text2{
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 25px;
+
+}
+
+.titleblockpopular2 h2{
+    margin-bottom: 0;
+    font-size: 19px;
     
 }
 
-.texte1 h3{
-    margin-top: 10px;
+.descblockpopular2 p{
+    margin-bottom: 0;
+}
+
+.starblockpopular2{
+    display: flex;
+    flex-direction: row;
     
 }
 
+.starblockpopular2 p{
+    color: #0065FC;
+    font-size: 20px;
+}
+
+#stargrey2{
+    color:  grey;
+}
+
+
+
+/*Block Image + texte 3 */
+.blockpopular3{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 17px;
+
+
+}
+
+/*Image block 3*/
+
+.picture3 {
+    display: flex;
+}
+.picture3 img{
+    height: 150px;
+    width: 120px;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+/*Text block 3 */
+.text3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+
+.titleblockpopular3 h2{
+    margin-bottom: 0;
+    font-size: 19px;
+}
+
+.descblockpopular3 p{
+    margin-bottom: 0;
+}
+
+.starblockpopular3{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.starblockpopular3 p{
+    color: #0065FC;
+    font-size: 20px;
+}
+
+#stargrey3{
+    color:  grey;
+}
 
 
 /** Systeme d'etoile**/
