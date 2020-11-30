@@ -262,39 +262,46 @@ input
 /**Section2 hebergement **/
 
 #section2 {
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
     font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif; 
     width: 70%;
     background-color: #F2F2F2;
+    padding: 20px;
     border-radius: 30px;
-    margin-left: 2%;
-    margin-right: 2%;
-   
 }
 
-.titre2{
-  margin-left: 2%;
-}
+/**Titre section 2**/
 
-.ensemble{
- 
-  flex-flow: row wrap;
-  justify-content: space-around;
-}
-
-.casse {
-    
+.title2 {
     display: flex;
-  
-    
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.cassebas {
-    
+.title2 h1{
+    color: black; 
+    margin: 0;
+    padding: 0;
+}
+
+/**Ensemble des casses **/
+
+.together{
     display: flex;
-
+    flex-direction: column;
 }
 
-.hebergement{
+/**Ligne des 3 casses du haut**/
+
+.blockbrokenhigh {
+    display: flex;
+    flex-direction: row;  
+}
+
+.brokenhigh{
     background-color: white;
     margin: 2%;
     border-radius: 17px;
@@ -302,9 +309,7 @@ input
     width: 350px;
 }
 
-
-
-.casse img {
+.picturebrokenhigh img {
     height: 100px;
     width: 95%;
     border-top-right-radius: 17px;
@@ -314,7 +319,23 @@ input
     
 }
 
-.cassebas img {
+/**Ligne des 3 casses du bas**/
+
+.blockbrokenlow{ 
+    display: flex;
+    flex-direction: row;
+
+}
+
+.brokenlow{
+    background-color: white;
+    margin: 2%;
+    border-radius: 17px;
+    height:230px;
+    width: 350px;
+}
+
+.picturebrokenlow img {
     height: 100px;
     width: 95%;
     border-top-right-radius: 17px;
@@ -323,12 +344,40 @@ input
     padding: 5px;
 }
 
-.desc h3{
+/**Etoile du l'ensemble de la section2**/
+
+.starsection2{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.starsection2 p{
+    color: #0065FC;
+    font-size: 20px;
+}
+
+#stargrey1{
+    color:  grey;
+}
+#stargrey2{
+    color:  grey;
+}
+#stargrey3{
+    color:  grey;
+}
+#stargrey4{
+    color:  grey;
+}
+#stargrey5{
+    color:  grey;
+}
+.titlesection2 h3{
     margin-top: 10px;
     margin-left: 20px ;
 }
 
-.desc p{
+.titlesection2 p{
     margin-left: 20px ;
 }
 
@@ -469,7 +518,7 @@ input
     font-size: 20px;
 }
 
-#stargrey2{
+#stargrey6{
     color:  grey;
 }
 
@@ -527,7 +576,7 @@ input
     font-size: 20px;
 }
 
-#stargrey3{
+#stargrey7{
     color:  grey;
 }
 
