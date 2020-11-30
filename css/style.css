@@ -277,8 +277,6 @@ input
 
 .title2 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .title2 h1{
@@ -296,12 +294,13 @@ input
 
 /**Ligne des 3 casses du haut**/
 
-.blockbrokenhigh {
+.blockboxhigh {
     display: flex;
     flex-direction: row;  
+    justify-content: space-around;
 }
 
-.brokenhigh{
+.boxhigh{
     background-color: white;
     margin: 2%;
     border-radius: 17px;
@@ -309,7 +308,7 @@ input
     width: 350px;
 }
 
-.picturebrokenhigh img {
+.pictureboxhigh img {
     height: 100px;
     width: 95%;
     border-top-right-radius: 17px;
@@ -321,13 +320,14 @@ input
 
 /**Ligne des 3 casses du bas**/
 
-.blockbrokenlow{ 
+.blockboxlow{ 
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 
 }
 
-.brokenlow{
+.boxlow{
     background-color: white;
     margin: 2%;
     border-radius: 17px;
@@ -335,7 +335,7 @@ input
     width: 350px;
 }
 
-.picturebrokenlow img {
+.pictureboxlow img {
     height: 100px;
     width: 95%;
     border-top-right-radius: 17px;
@@ -357,19 +357,7 @@ input
     font-size: 20px;
 }
 
-#stargrey1{
-    color:  grey;
-}
-#stargrey2{
-    color:  grey;
-}
-#stargrey3{
-    color:  grey;
-}
-#stargrey4{
-    color:  grey;
-}
-#stargrey5{
+.starsection2 .stargrey{
     color:  grey;
 }
 .titlesection2 h3{
@@ -722,4 +710,9 @@ footer p:hover {
     color: #afaeae;
     cursor: pointer;
   
+}
+
+.liensection2{
+    text-decoration: none;
+    color: black;
 }
