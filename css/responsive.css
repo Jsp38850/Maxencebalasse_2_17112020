@@ -6,15 +6,7 @@
         height: 100%;
         margin-top: 40px;
     }
-    #section2 {
-        
-        background-color: #F2F2F2;
-        padding: 20px;
-        border-radius: 17px;
-        margin-left: 2%;
-        margin-right: 2%;
-       
-    }
+
     #section2 {
         background-color: #F2F2F2;
         padding: 20px;
@@ -128,5 +120,5 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-content: center;
+    align-content: center;}
 }
