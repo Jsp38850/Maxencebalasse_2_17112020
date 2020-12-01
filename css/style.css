@@ -316,18 +316,7 @@ input
    
 }
 
-.pictureboxhigh {
-    display: flex;
-}
-.pictureboxhigh img {
-    height: 150px;
-    width: 95%;
-    border-top-right-radius: 17px;
-    border-top-left-radius: 17px;
-    object-fit: cover;
-    padding: 5px;
-    
-}
+
 
 /**Ligne des 3 casses du bas**/
 
@@ -348,14 +337,7 @@ input
     padding: 5px;
 }
 
-.pictureboxlow img {
-    height: 100px;
-    width: 95%;
-    border-top-right-radius: 17px;
-    border-top-left-radius: 17px;
-    object-fit: cover;
-    padding: 5px;
-}
+
 
 .textsection2 {
     margin-left: 5px;
@@ -429,16 +411,14 @@ input
 }
 /*Image Block 1*/
 
-.picture1 {
-    display: flex;
-}
-.picture1 img{
+.card_img2{
+
     border-top-left-radius: 17px;
     border-bottom-left-radius: 17px;
     object-fit: cover;
-    padding: 5px;
     height: 150px;
     width: 120px;
+    padding: 5px;
 }
 
 /*Text block 1*/
@@ -481,20 +461,6 @@ input
 
 }
 
-/*Image Block 2 */
-
-.picture2 {
-    display: flex;
-}
-
-.picture2 img{
-    height: 150px;
-    width: 120px;
-    border-top-left-radius: 17px;
-    border-bottom-left-radius: 17px;
-    object-fit: cover;
-    padding: 5px;
-}
 
 /*Text block 2*/
 .text2{
@@ -541,19 +507,7 @@ input
 
 }
 
-/*Image block 3*/
 
-.picture3 {
-    display: flex;
-}
-.picture3 img{
-    height: 150px;
-    width: 120px;
-    border-top-left-radius: 17px;
-    border-bottom-left-radius: 17px;
-    object-fit: cover;
-    padding: 5px;
-}
 
 /*Text block 3 */
 
@@ -719,3 +673,4 @@ footer p:hover {
     object-fit: cover;
     max-height: 150px;
 }
+
