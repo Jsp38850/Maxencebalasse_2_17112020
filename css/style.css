@@ -345,6 +345,7 @@ input
     border-radius: 17px;
     width: 350px;
     margin-top: 10px;
+    padding: 5px;
 }
 
 .pictureboxlow img {
@@ -716,5 +717,5 @@ footer p:hover {
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
     object-fit: cover;
-    max-height: 350px;
+    max-height: 150px;
 }
