@@ -312,6 +312,7 @@ input
     background-color: white;
     border-radius: 17px;
     width: 350px;
+    padding: 5px;
    
 }
 
@@ -554,6 +555,7 @@ input
 }
 
 /*Text block 3 */
+
 .text3{
     display: flex;
     flex-direction: column;
@@ -586,36 +588,6 @@ input
 }
 
 
-/** Systeme d'etoile**/
-
-         .rating {
-			width: 100px;
-            overflow:hidden;
-            margin-bottom: 2%;
-
-		}
-		.rating a {
-			float:right;
-			color: #aaa;
-			text-decoration: none;
-			-webkit-transition: color .4s;
-			-moz-transition: color .4s;
-			-o-transition: color .4s;
-			transition: color .4s;
-		}
-		.rating a:hover,
-		.rating a:hover ~ a,
-		.rating a:focus,
-		.rating a:focus ~ a		{
-			color: blue;
-			cursor: pointer;
-		}
-		.rating2 {
-			direction: rtl;
-		}
-		.rating2 a {
-			float:none
-		}
 
 /*Section 4 Activité à Marseille*/
 
@@ -624,6 +596,7 @@ input
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 50px;
+    margin-top: 70px;
     
   
 }
@@ -635,16 +608,14 @@ input
 .casse3 {
     display: flex;  
     height: 450px;
-    
+    justify-content: space-evenly;
     
    }
 
 .range{
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    width: 250px;
-    flex-grow:1;
+  
  
   
 }
@@ -671,7 +642,9 @@ input
     border-radius: 17px;
     box-shadow: 0 0 1em grey;
     height: 100%;
+    width: 300px;
 }
+
 
 .activite1 img{
 
@@ -686,6 +659,8 @@ input
     box-shadow: 0 0 1em grey;
     height: 50%;
     margin-bottom: 10px;
+    width: 300px;
+
 }
 
 .activite2 img{
@@ -700,6 +675,8 @@ input
     border-radius: 17px;
     box-shadow: 0 0 1em grey;
     height: 50%;
+    width: 300px;
+
 }
 
 .activite3 img{
@@ -732,4 +709,12 @@ footer p:hover {
 .liensection2{
     text-decoration: none;
     color: black;
+}
+
+.card_img{
+    width: 100%;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    object-fit: cover;
+    max-height: 350px;
 }
