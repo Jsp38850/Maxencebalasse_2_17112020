@@ -78,6 +78,7 @@ button {
 .disable{
     margin-top: 10px;
     color: grey;
+ 
 }
 
 .link{
@@ -338,19 +339,17 @@ input
     justify-content: space-between;
     
 }
-
-
+.haut i{
+    margin-top: 25px;
+}
 /*Block Image + texte 1 */
 
-.block2{
+.block2_card2{
     display: inline-flex;
     flex-direction: column;
     width: 100%;
-}
-.block2_card2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    height: 85%;
+    justify-content: space-evenly;
 }
 
 
@@ -362,6 +361,7 @@ input
     background-color: white;
     border-radius: 17px;
     width: 350px;
+    height: 150px;
     margin-top: 10px;
     padding: 5px;
 }
