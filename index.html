@@ -25,15 +25,9 @@
     <!-- Header -->
 
     <header>
-
         <!--Logo du site-->
-
-        <div class="divlogo">
-            <img class="logo" src="img/logo/Reservia.png" alt="Logo du site Reservia">
-        </div>
-
+            <img src="img/logo/Reservia.png" alt="Logo du site Reservia" class="logo"/>
         <!--Menu-->
-
         <nav>
             <ul>
                 <li><a href="#section2">Hébergements</a></li>
@@ -41,88 +35,57 @@
                 <li class="inscrire"><a href="#"><strong>S'inscrire</strong></a></li>
             </ul>
         </nav>
-
     </header>
 
-
-
-
     <!-- Section 1 -->
+    <section class="section1">
+            <h2 class="bold">Trouvez votre hébergement pour des vacances de rêves</h2>
+            <p class="desc">En plein centre ville ou en plein nature</p>
 
-    <section id="section1">
-
-        <div class="titre1">
-            <h2>Trouvez votre hébergement pour des vacances de rêves</h2>
-            <p>En plein centre ville ou en plein nature</p>
-        </div>
-
-    <!-- Barre de recherche -->
-
-        <div class="recherchebarre">
-
-            <div class="iconeinput">
-
-                <div class = "iconemap">
-                    <i class="fas fa-map-marker-alt"></i>
-                </div>
-
-                <input type="text" name="pseudo" id="pseudo" placeholder="Marseille, France"/>
-
-            </div>   
-           
-            <button type="button" class="btn1">Rechercher</button>
-             
-        </div>
+        <!-- Barre de recherche -->
+            <div class="Search_bar">
+                <div class="iconeinput">
+                    <div class = "iconemap">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <input type="text" name="pseudo" id="pseudo" placeholder="Marseille, France"/>
+                </div>   
+                    <button class="btn1">Rechercher</button>   
+            </div>
        
 
     <!-- Barre des filtres -->
-
     <div class="general">
+            <h5 class="titrefilter bold">Filtres</h5>
 
-        <div class="titrefilter">
-            <h5>Filtres</h5>
-        </div>
-  
         <div class="grpfilter">
-     
           <div class="iconemap1">
             <i class="fas fa-money-bill-wave"></i>
           </div>
-          
-          <button type="button" class="filtre"><strong>Économique</strong></button>
-          
-         </div>
-             
-        
+          <button class="filtre bold">Économique</button>
+        </div>
+
         <div class="grpfilter">
-          
           <div class="iconemap1">
             <i class="fas fa-child"></i>
           </div>
-          
-          <button type="button" class="filtre"><strong>Familial</strong></button>
-          
-         </div>
-             <div class="grpfilter">
-          
-          <div class="iconemap1">
-            <i class="fas fa-heart"></i>
+          <button class="filtre bold">Familial</button>
           </div>
-          
-          <button type="button" class="filtre"><strong>Romantique</strong></button>
-          
-         </div>
-             <div class="grpfilter">
-          
+
+          <div class="grpfilter">
+            <div class="iconemap1">
+                <i class="fas fa-heart"></i>
+            </div>
+          <button class="filtre bold">Romantique</button>
+        </div>
+
+        <div class="grpfilter">
           <div class="iconemap1">
             <i class="fas fa-dog"></i>
           </div>
-          
-          <button type="button" class="filtre"><strong>Animaux autorisés</strong></button>
-          
-         </div>
-             
-      </div>
+          <button class="filtre bold">Animaux autorisés</button>
+         </div>      
+    </div>
 
     <!-- Bandeau d'information -->
 
@@ -139,214 +102,133 @@
 
 
     <!--Block 3 Hebergement+Populaire-->
-
     <div class="container">
-
         <!-- Section 2 Hébergements à Marseille -->
-
         <section id="section2">
-
             <!--Titre section 2-->
-
-            <div class="title2">
-                <h1>Hébergements à Marseille</h1>
-            </div>
-
+                <h1 class="title bold">Hébergements à Marseille</h1>
             <!--Block général image + texte section 2-->
-            
-            <div class="together">
-            
+            <div class="blocks">
                 <!--Bloc case du haut-->
-
-                <div class="blockboxhigh">
-
-                    <div class="boxhigh">
-
-                        <a href="#" class="liensection2">
-
-                        
-                            <img src="img/hebergement/auberge_la_cannebiere.jpg" alt="Auberge la Cannebière" class="card_img"/>
-                        
-
-                        <div class="textsection2">
-                            <div class="titlesection2">
-                                <h3>Auberge la Cannebière</h3>
-                            </div>
-                            <div class="descsection2">
-                                <p>Nuit à partir de <strong>25€</strong></p>
-                            </div>
-                            
-                             <div class="starsection2">
-                                <p>★</p>
-                                <p>★</p>
-                                <p>★</p>
-                                <p>★</p>
-                                <p class="stargrey">★</p>
+                <div class="block_card">
+                    <a href="#" class="link">
+                        <div class="card">
+                            <img src="img/hebergement/auberge_la_cannebiere.jpg" alt="Auberge la Cannebière"/>
+                            <div class="detail">
+                                <h3 class="title">Auberge la Cannebière</h3>
+                                <span class="description">Nuit à partir de <strong>25€</strong></span>
+                                <div class="star">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span class="disable">★</span>
+                                </div>
                             </div>
                         </div>
-                        
-                        </a>
-
-                    </div>
-              
-                    <div class="boxhigh">
-
-                        
-                            <img src="img/hebergement/hotel_du_port.jpg" alt="Hôtel du port" class="card_img"/>
-                        
-
-                        <div class="textsection2">
-                            <div class="titlesection2">
-                                <h3>Hôtel du port</h3>
-                            </div>
-                            
-                            <div class="descsection2">
-                                <p>Nuit à partir de 52€</p>
-                            </div>
-                            
-
-                            <div class="starsection2">
-                                <p>★</p>
-                                <p>★</p>
-                                <p>★</p>
-                                <p>★</p>
-                                <p>★</p>
+                    </a>
+                    <a href="#" class="link">
+                        <div class="card">
+                            <img src="img/hebergement/hotel_du_port.jpg" alt="Hôtel du port"/>
+                            <div class="detail">
+                                <h3 class="title">Hôtel du port</h3>
+                                <span class="description">Nuit à partir de 52€</span>
+                                <div class="star">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span class="disable">★</span>
+                                </div>
                             </div>
                         </div>
-                        
-                    </div>
+                    </a>
 
-                    <div class="boxhigh">
-                        
-                    
-                            <img src="img/hebergement/hotel_les_mouettes.jpg" alt="Hôtel Les mouettes" class="card_img" />
-                        
-
-                        <div class="textsection2">
-                            <div class="titlesection2">
-                                <h3>Hôtel Les mouettes</h3>
-                            </div>
-                            
-                            <div class="descsection2">
-                                <p>Nuit à partir de 76€</p>
-                            </div>
-                            
-
-                            <div class="starsection2">
-                                <p>★</p>
-                                <p>★</p>
-                                <p>★</p>
-                                <p>★</p>
-                                <p class="stargrey">★</p>
+                    <a href="#" class="link">
+                        <div class="card">
+                            <img src="img/hebergement/hotel_les_mouettes.jpg" alt="Hôtel Les mouettes"/>
+                            <div class="detail">
+                                <h3 class="title">Hôtel Les mouettes</h3>
+                                <span class="description">Nuit à partir de 76€</span>
+                                <div class="star">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span class="disable">★</span>
+                                </div>
                             </div>
                         </div>
-                        
-                    </div>
-                
+                    </a>
                 </div>
-
-
                 <!--Bloc case du bas-->
-
-                <div class="blockboxlow">
-
-                    <div class="boxlow">
-
-                            <img src="img/hebergement/hotel_de_la_mer.jpg" alt="Hôtel de la mer" class="card_img"/>
-                    
-
-                        <div class="textsection2">
-                            <div class="titlesection2">
-                                <h3>Hôtel de la mer</h3>
-                            </div>
-
-                            <div class="descsection2">
-                                <p>Nuit à partir de 46€</p>
-                            </div>
-
-                            <div class="starsection2">
-                                <p>★</p>
-                                <p>★</p>
-                                <p>★</p>
-                                <p class="stargrey">★</p>
-                                <p class="stargrey">★</p>
+                <div class="block_card">
+                    <a href="#" class="link">
+                        <div class="card">
+                            <img src="img/hebergement/hotel_de_la_mer.jpg" alt="Hôtel de la mer"/>
+                            <div class="detail">
+                                <h3 class="title">Hôtel de la mer</h3>
+                                <span class="description">Nuit à partir de 46€</span>
+                                <div class="star">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span class="disable">★</span>
+                                </div>
                             </div>
                         </div>
-
-                    </div>
-
-                    <div class="boxlow">
-
-                       
-                           <img src="img/hebergement/auberge_le_panier.jpg" alt="Auberge Le Panier" class="card_img"/>
-                        
-
-                        <div class="textsection2">
-                            <div class="titlesection2">
-                                 <h3>Auberge Le Panier</h3>
-                            </div>
-                           
-                            <div class="descsection2">
-                                <p>Nuit à partir de 23€</p>
-                            </div>
-                            
-
-                            <div class="starsection2">
-                                <p>★</p>
-                                <p>★</p>
-                                <p>★</p>
-                                <p>★</p>
-                                <p class="stargrey">★</p>
+                    </a>
+                    <a href="#" class="link">
+                        <div class="card">
+                            <img src="img/hebergement/auberge_le_panier.jpg" alt="Auberge Le Panier"/>
+                            <div class="detail">
+                                <h3 class="title">Auberge Le Panier</h3>
+                                <span class="description">Nuit à partir de 23€</span>
+                                <div class="star">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span class="disable">★</span>
+                                </div>
                             </div>
                         </div>
-                        
-                    </div>
+                    </a>
 
-                    <div class="boxlow">
-
-                        
-                            <img src="img/hebergement/hotel_chez_amina.jpg" alt="Hôtel chez Amina" class="card_img"/>
-                        
-
-                        <div class="textsection2">
-                            <div class="titlesection2">
-                                <h3>Hôtel chez Amina</h3>
-                            </div>
-                            
-                            <div class="descsection2">
-                                <p>Nuit à partir de 96€</p>
-                            </div>
-                            
-
-                            <div class="starsection2">
-                                <p>★</p>
-                                <p>★</p>
-                                <p>★</p>
-                                <p>★</p>
-                                <p>★</p>
+                    <a href="#" class="link">
+                        <div class="card">
+                            <img src="img/hebergement/hotel_chez_amina.jpg" alt="Hôtel chez Amina"/>
+                            <div class="detail">
+                                <h3 class="title">Hôtel chez Amina</h3>
+                                <span class="description">Nuit à partir de 96€</span>
+                                <div class="star">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span class="disable">★</span>
+                                </div>
                             </div>
                         </div>
-
-                    </div>
-                
-                </div>
-
+                    </a>
+                </div>        
             </div>
 
             <!--Bloc Affichez plus -->
-
             <div class="display">
-                <p><strong>Afficher plus</strong></p>
+                <p class="bold">Afficher plus</p>
             </div>
-
         </section>
+
+
 
         <!--Section 3 "Les plus populaires"-->
 
         <section id="section3">
 
-            <div class="title3">
-                <h1>Les plus populaires</h1>
+            <div class="haut">
+                <h1 class="title bold">Les plus populaires</h1>
                 <i class="fas fa-chart-line"></i>
             </div>
 
@@ -448,9 +330,7 @@
 
     <section id="section4">
 
-        <div class="titre3">
-            <h2>Activités à Marseille</h2>
-        </div>
+            <h1 class="title bolc">Activités à Marseille</h2>
 
         <div class="casse3">
 
