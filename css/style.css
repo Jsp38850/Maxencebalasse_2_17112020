@@ -70,7 +70,7 @@ button {
 }
 
 .star{
-    margin-top: 10px;
+    margin-top: 30px;
     color: blue;
     font-size: 20px;
 }
@@ -266,7 +266,7 @@ input
 
 /**Section2 hebergement **/
 
-#section2 {
+.section2 {
     font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif; 
     width: 70%;
     background-color: #F2F2F2;
@@ -353,7 +353,7 @@ input
     flex-direction: column;
     width: 100%;
     height: 90%;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 
@@ -395,38 +395,64 @@ input
 
 /*Section 4 Activité à Marseille*/
 
-#section4 {
+
+.section4 {
     font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif; 
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-bottom: 50px;
-    margin-top: 70px;
-    
-  
+    width: 100%;
+    padding: 20px 30px;
 }
 
-.titre3 {
-  margin-left: 2%;
-}
-
-.casse3 {
-    display: flex;  
-    height: 450px;
+.block3 {
+    display: flex;
+    flex-direction: row;  
     justify-content: space-evenly;
     
    }
 
-.range{
+.block_one{
     display: flex;
     flex-direction: column;
-  
- 
-  
+    background-color: white;
+    border-radius: 17px;
+    box-shadow: 0 0 1em grey;
+    width: 250px;
+    height: 450px;
 }
-   
 
-.casse3 img {
-    height: 110px;
+.card3 img {
+    height: 400px;
+    width: 100%;
+    border-top-left-radius:  17px;
+    border-top-right-radius:  17px;
+    object-fit: cover; 
+}
+
+.block_two{
+    display: flex;
+    flex-direction: column;
+   
+    width: 250px;
+    height: 450px; 
+
+}
+
+.card_1{
+    background-color: white;
+    border-radius: 17px;
+    box-shadow: 0 0 1em grey;
+    
+}
+
+.card3_1 img {
+    height: 150px;
+    width: 100%;
+    border-top-left-radius:  17px;
+    border-top-right-radius:  17px;
+    object-fit: cover;
+    
+}
+.card3_2 img {
+    height: 100px;
     width: 100%;
     border-top-left-radius:  17px;
     border-top-right-radius:  17px;
@@ -434,60 +460,7 @@ input
     
 }
 
-.casse3 p{
 
-    margin-left: 10px;
-}
-
-
-.activite1 {
-
-    background-color: white;
-    border-radius: 17px;
-    box-shadow: 0 0 1em grey;
-    height: 100%;
-    width: 300px;
-}
-
-
-.activite1 img{
-
-    border-top: 17px;
-    height: 90%;
-}
-
-.activite2{
-
-    background-color: white;
-    border-radius: 17px;
-    box-shadow: 0 0 1em grey;
-    height: 50%;
-    margin-bottom: 10px;
-    width: 300px;
-
-}
-
-.activite2 img{
-
-    border-top: 17px;
-    height: 80%;
-}
-
-.activite3{
-
-    background-color: white;
-    border-radius: 17px;
-    box-shadow: 0 0 1em grey;
-    height: 50%;
-    width: 300px;
-
-}
-
-.activite3 img{
-
-    border-top: 17px;
-    height: 80%;
-}
 
 /*Pied de page*/
 
@@ -510,16 +483,6 @@ footer p:hover {
   
 }
 
-.liensection2{
-    text-decoration: none;
-    color: black;
-}
 
-.card_img{
-    width: 100%;
-    border-top-right-radius: 12px;
-    border-top-left-radius: 12px;
-    object-fit: cover;
-    max-height: 150px;
-}
+
 
