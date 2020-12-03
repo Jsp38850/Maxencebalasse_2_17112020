@@ -268,7 +268,7 @@ input
 
 .section2 {
     font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif; 
-    width: 70%;
+    width: 60%;
     background-color: #F2F2F2;
     padding: 20px 30px;
     border-radius: 30px;  
@@ -329,7 +329,7 @@ input
 
 .section3 {
     font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif; 
-    width: 20%;
+    width: 25%;
     background-color: #F2F2F2;
     padding: 20px 30px;
     border-radius: 30px;
@@ -364,8 +364,7 @@ input
     flex-direction: row;
     background-color: white;
     border-radius: 17px;
-    width: 350px;
-    height: 150px;
+    height: 180px;
     padding: 5px;
 }
 
@@ -377,11 +376,11 @@ input
 }
 
 .card2 img{
-    width: 30%;
+    width: 32%;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
     object-fit: cover;
-    max-height: 150px;
+    max-height: 180px;
 }
 
 .card2 .detail2 .title{
