@@ -208,7 +208,9 @@ input
     border-radius:20px;
     border:none;
     flex-direction: row;
-    padding: 10px;
+    padding-left: 20px;
+    font-size: 14px;
+    padding-right: 20px;
 }
 
 /*Effet survol filtre*/
@@ -293,6 +295,7 @@ input
     width: 350px;
     margin-top: 10px;
     padding: 5px;
+    box-shadow: 0 0 1em rgb(165, 165, 165);
 }
 
 .card .detail{
@@ -366,6 +369,7 @@ input
     border-radius: 17px;
     height: 180px;
     padding: 5px;
+    box-shadow: 0 0 1em rgb(165, 165, 165);
 }
 
 .card2 .detail2{
@@ -408,7 +412,9 @@ input
 .block3 {
     display: flex;
     flex-direction: row;  
-    justify-content: space-evenly;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    
     
    }
 
@@ -418,12 +424,13 @@ input
     background-color: white;
     border-radius: 17px;
     box-shadow: 0 0 1em grey;
-    width: 250px;
-    height: 450px;
+    width: 375px;
+    height: 580px;
+   
 }
 
 .card3 img {
-    height: 400px;
+    height: 530px;
     width: 100%;
     border-top-left-radius:  17px;
     border-top-right-radius:  17px;
@@ -433,10 +440,13 @@ input
 .block_two{
     display: flex;
     flex-direction: column;
-   
-    width: 250px;
-    height: 450px; 
+    justify-content: space-between;
+    width: 375px;
 
+}
+
+.marginright{
+    margin-right: 5%;
 }
 
 .card3_1{
@@ -447,15 +457,22 @@ input
 }
 
 .card3_1 img {
-    height: 150px;
+    height: 250px;
     width: 100%;
     border-top-left-radius:  17px;
     border-top-right-radius:  17px;
     object-fit: cover;
+    
+}
+
+.card3_2{
+    background-color: white;
+    border-radius: 17px;
+    box-shadow: 0 0 1em grey;
     
 }
 .card3_2 img {
-    height: 100px;
+    height: 170px;
     width: 100%;
     border-top-left-radius:  17px;
     border-top-right-radius:  17px;
@@ -463,7 +480,48 @@ input
     
 }
 
+.card3_3{
+    background-color: white;
+    border-radius: 17px;
+    box-shadow: 0 0 1em grey;
+    
+}
 
+.card3_3 img {
+    height: 200px;
+    width: 100%;
+    border-top-left-radius:  17px;
+    border-top-right-radius:  17px;
+    object-fit: cover;
+    
+}
+.card3_4{
+    background-color: white;
+    border-radius: 17px;
+    box-shadow: 0 0 1em grey;
+    
+}
+
+.card3_4 img {
+    height: 220px;
+    width: 100%;
+    border-top-left-radius:  17px;
+    border-top-right-radius:  17px;
+    object-fit: cover;
+    
+}
+
+.marginleft {
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.lieu{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+
+}
 
 /*Pied de page*/
 
