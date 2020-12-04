@@ -15,14 +15,31 @@
         margin-left: 2%;
         margin-right: 2%;
         margin-top: 40px;
-        width: 92%;
+        width: 85%;
     }
     .section3 {
-        width: 92%;
+        width: 85%;
         background-color: #F2F2F2;
         padding: 20px;
         border-radius: 17px;
         margin-left: 2%;
           
+    }
+
+    .block_card {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        height: 300px;
+    }
+
+    .block3{
+        flex-direction: column;
+    }
+
+    .block_one {
+        width: 700px;
     }
 }
