@@ -1,4 +1,4 @@
-@media only screen and (max-width:480px) {
+@media screen and (max-device-width:768px) {
 
 
 .body{
@@ -59,4 +59,24 @@
     .block_one {
         width: 700px;
     }
+}
+
+@media screen and (min-device-width : 790px ) {
+    .section3 {
+      
+        background-color: green;
+      
+          
+    }
+
+}
+
+@media screen and ( min-device-width : 1200px ) {
+    .section3 {
+      
+        background-color: red;
+      
+          
+    }
+
 }
