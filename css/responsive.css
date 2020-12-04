@@ -1,5 +1,22 @@
 @media only screen and (max-device-width:480px) {
 
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+    /*Style du logo*/
+.logo {
+    width: 20%;
+    margin-left: 3%;
+}
+
+    .menu{
+        flex-direction: row-reverse;
+        display: flex;
+        font-size: 25px;
+    }
+
     .container {
         display: flex;
         flex-direction: column-reverse;
@@ -15,10 +32,10 @@
         margin-left: 2%;
         margin-right: 2%;
         margin-top: 40px;
-        width: 85%;
+        width: 92%;
     }
     .section3 {
-        width: 85%;
+        width: 92%;
         background-color: #F2F2F2;
         padding: 20px;
         border-radius: 17px;
