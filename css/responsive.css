@@ -1,4 +1,5 @@
 @media only screen and (max-device-width:480px) {
+
     .container {
         display: flex;
         flex-direction: column-reverse;
@@ -7,7 +8,7 @@
         margin-top: 40px;
     }
 
-    #section2 {
+    .section2 {
         background-color: #F2F2F2;
         padding: 20px;
         border-radius: 17px;
@@ -16,7 +17,7 @@
         margin-top: 40px;
         width: 92%;
     }
-    #section3 {
+    .section3 {
         width: 92%;
         background-color: #F2F2F2;
         padding: 20px;
@@ -24,101 +25,4 @@
         margin-left: 2%;
           
     }
-    .casse img {
-        height: 100px;
-        width: 200px;
-        border-top-right-radius: 17px;
-        border-top-left-radius: 17px;
-        object-fit: cover;
-        padding: 5px;
-        
-    }
-    .cassebas img {
-        height: 100px;
-        width: 200px;
-        border-top-right-radius: 17px;
-        border-top-left-radius: 17px;
-        object-fit: cover;
-        padding: 5px;
-    }
-
-.casse3 {
-    width: 100%;
-    /* display: flex; */
-    flex-direction: column;
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
-    height: 100%;
-}
-
- .range1{
-     display: block;
-     width: 100%;
- }
-
- .range2{
-    display: block;
-    width: 100%;
-}
-
-.range3{
-    display: block;
-    width: 100%;
-}
-
-.range4{
-    display: block;
-    width: 100%;
-}
-.ensemble {
-    display: flex;
-    flex-direction: column;}
-
-    .casse {
-    
-        display: block;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        
-    }
-
-    .cassebas {
-    
-        display: block;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        
-    }
-
-    .activite1 {
-        background-color: white;
-        border-radius: 17px;
-        box-shadow: 0 0 1em grey;
-        height: 250px;}
-
-        
-    .activite2 {
-        background-color: white;
-        border-radius: 17px;
-        box-shadow: 0 0 1em grey;
-        height: 250px;}
-
-        
-    .activite3
-    
-{
-        background-color: white;
-        border-radius: 17px;
-        box-shadow: 0 0 1em grey;
-        height: 250px;}
-    
-/*Pied de page*/
-
-footer {
-    width: 100%;
-    background-color: #f2f2f2;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;}
 }
