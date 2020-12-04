@@ -59,6 +59,12 @@
     .block_one {
         width: 700px;
     }
+
+    footer{
+        height: 600px;
+        flex-direction: column;
+        display: flex;
+    }
 }
 
 @media screen and (min-device-width : 790px ) {
