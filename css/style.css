@@ -134,13 +134,17 @@ input
 .iconemap
 {
 	background-color:#F2F2F2; 
-	height:40px;
-	width: 30px;
+	height: 45px;
+    width: 45px;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px; 
 	display: flex;
 	align-items:center;
 	justify-content: center;
+}
+
+button{
+    font-size: 15px;
 }
 
 .btn1 
@@ -155,7 +159,7 @@ input
 	    padding-left: 20px;
         cursor: pointer;
         font-weight: bold;
-        height: 42px;
+        height: 47px;
         }
 
 .btn1:hover
@@ -258,7 +262,7 @@ input
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-     height: 750px;
+    height: 830px;
     margin-top: 40px;
     justify-content: space-evenly;
 }
@@ -285,6 +289,8 @@ input
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 40px;
+
 }
 
 .card{
@@ -292,14 +298,14 @@ input
     flex-direction: column;
     background-color: white;
     border-radius: 17px;
-    width: 350px;
+    width: 340px;
     margin-top: 10px;
     padding: 5px;
     box-shadow: 0 0 1em rgb(165, 165, 165);
 }
 
 .card .detail{
-    padding-left: 5px;
+    padding-left: 15px;
     display: flex;
     flex-direction: column;
     padding-bottom: 5px;
@@ -317,12 +323,12 @@ input
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: "Raleway_bold", sans-serif;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .display{
     font-size: 20px;
-    margin-top: 40px;
+    
 }
 
 /*Section3 "Les plus populaires"/
@@ -376,7 +382,7 @@ input
     padding-left: 15px;
     display: flex;
     flex-direction: column;
-    padding-bottom: 5px;
+    padding-top: 10px;
 }
 
 .card2 img{
@@ -391,15 +397,15 @@ input
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: "Raleway_bold", sans-serif;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .margin{
-    margin-top: 90px;
+    margin-top: 75px;
 }
 
 .margin2{
-    margin-top: 75px;
+    margin-top: 55px;
 }
 /*Section 4 Activité à Marseille*/
 
@@ -425,7 +431,7 @@ input
     border-radius: 17px;
     box-shadow: 0 0 1em grey;
     width: 375px;
-    height: 580px;
+
    
 }
 
@@ -457,7 +463,7 @@ input
 }
 
 .card3_1 img {
-    height: 250px;
+    height: 240px;
     width: 100%;
     border-top-left-radius:  17px;
     border-top-right-radius:  17px;
@@ -472,7 +478,7 @@ input
     
 }
 .card3_2 img {
-    height: 170px;
+    height: 160px;
     width: 100%;
     border-top-left-radius:  17px;
     border-top-right-radius:  17px;
@@ -488,7 +494,7 @@ input
 }
 
 .card3_3 img {
-    height: 200px;
+    height: 180px;
     width: 100%;
     border-top-left-radius:  17px;
     border-top-right-radius:  17px;
@@ -503,7 +509,7 @@ input
 }
 
 .card3_4 img {
-    height: 220px;
+    height: 210px;
     width: 100%;
     border-top-left-radius:  17px;
     border-top-right-radius:  17px;
@@ -517,7 +523,7 @@ input
 }
 
 .lieu{
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 15px;
 
