@@ -20,7 +20,7 @@
     }
 
     .section2 {
-        background-color: #F2F2F2;
+        background-color: white;
         padding: 20px;
         border-radius: 17px;
         margin-left: 2%;
@@ -36,6 +36,38 @@
         margin-left: 2%;     
     }
 
+    .block_card{
+        flex-direction: column;
+    }
+
+    .block3{
+        flex-direction: column;
+    }
+
+    footer{
+        flex-direction: column;
+        height: 1050px;
+        font-size: 35px;
+    }
+
+    .colune .title{
+        font-size: 40px;
+    }
+
+    .colune {
+        width: 100%;
 }
 
+    .block_one{
+        width: 96%;
+    }
+
+    .block_two{
+        width: 96%;
+    }
+
+    .card{
+        width: 99%;
+    }
+}
 
