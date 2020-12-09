@@ -38,6 +38,7 @@
 
     .block_card{
         flex-direction: column;
+        margin-bottom: 0;
     }
 
     .block3{
@@ -68,6 +69,14 @@
 
     .card{
         width: 99%;
+        border-radius: 40px;
     }
+
+    .card img{
+        max-height: 350px;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+}
+
 }
 
