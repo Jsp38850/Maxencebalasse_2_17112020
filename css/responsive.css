@@ -1,8 +1,8 @@
 @media screen and ( max-device-width : 768px ) {
 
-.logo {
-    width: 20%;
-    margin-left: 3%;
+    .logo {
+         width: 20%;
+         margin-left: 3%;
 }
 
     .menu{
@@ -61,10 +61,12 @@
 
     .block_one{
         width: 96%;
+        margin-bottom: 70px;
     }
 
     .block_two{
         width: 96%;
+        margin-bottom: 70px;
     }
 
     .card{
@@ -78,5 +80,63 @@
         border-top-right-radius: 40px;
 }
 
+.card3{
+    border-radius: 40px;
+}
+
+.card3 img{
+    height: 350px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.card3_1{
+    border-radius: 40px;
+    margin-bottom: 70px;
+}
+
+.card3_1 img{
+    height: 350px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.card3_2{
+    border-radius: 40px;
+}
+
+.card3_2 img{
+    height: 350px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.card3_3{
+    border-radius: 40px;
+    margin-bottom: 70px;
+}
+
+.card3_3 img{
+    height: 350px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.card3_4{
+    border-radius: 40px;
+}
+
+.card3_4 img{
+    height: 350px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.lieu{
+    font-size: 2.5em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
 }
 
