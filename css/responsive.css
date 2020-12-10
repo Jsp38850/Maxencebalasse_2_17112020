@@ -81,6 +81,26 @@
         border-top-right-radius: 40px;
 }
 
+.card2{
+    height: 350px;
+    border-radius: 40px;
+    padding: 5px;
+}
+
+.card2 img{
+    max-height: 350px;
+    padding: 8px;
+    width: 35%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+
+.card2 .detail2 .title {
+    padding: 30px;
+    font-size: 45px;
+    margin-bottom: 0;
+}
 .card3{
     border-radius: 40px;
 }
@@ -143,6 +163,21 @@
 .title {
     font-size: 60px;
     margin-bottom: 90px;
+}
+
+.display {
+    font-size: 50px;
+}
+
+.desc{
+    margin-left: 30px;
+    font-size: 39px;
+}
+
+.star{
+    font-size: 29px;
+    margin-left: 30px;
+    margin-top: 60px;
 }
 }
 
