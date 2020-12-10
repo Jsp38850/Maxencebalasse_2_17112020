@@ -1,15 +1,44 @@
 @media screen and ( max-device-width : 768px ) {
 
+/*CSS général*/
+
+.title {
+        font-size: 60px;
+        margin-bottom: 90px;
+    }
+
+    .star{
+        font-size: 29px;
+        margin-left: 30px;
+        margin-top: 60px;
+    }
+    
+/*--------------------------------*/
+
+/*Style du logo*/
+
     .logo {
          width: 20%;
          margin-left: 3%;
 }
+
+/*--------------------------------*/
+
+/*Style du menu*/
 
     .menu{
         flex-direction: row-reverse;
         display: flex;
         font-size: 25px;
     }
+
+    .inscrire{
+        margin-right: 50px;
+    }
+
+/*--------------------------------*/
+
+/*Block3 Hebergement+Populaire*/
 
     .container {
         display: flex;
@@ -18,6 +47,10 @@
         height: 100%;
         margin-top: 40px;
     }
+
+/*--------------------------------*/
+
+/**Section2 hebergement **/
 
     .section2 {
         background-color: white;
@@ -28,46 +61,10 @@
         margin-top: 40px;
         width: 92%;
     }
-    .section3 {
-        width: 92%;
-        background-color: #F2F2F2;
-        padding: 20px;
-        border-radius: 17px;
-        margin-left: 2%;     
-    }
 
     .block_card{
         flex-direction: column;
         margin-bottom: 0;
-    }
-
-    .block3{
-        flex-direction: column;
-    }
-
-    footer{
-        flex-direction: column;
-        height: 1050px;
-        font-size: 35px;
-    }
-
-    .colune .title{
-        font-size: 40px;
-    }
-
-    .colune {
-        width: 100%;
-}
-
-    .block_one{
-        width: 96%;
-        margin-bottom: 70px;
-        border-radius: 40px;
-    }
-
-    .block_two{
-        width: 96%;
-        margin-bottom: 70px;
     }
 
     .card{
@@ -81,27 +78,72 @@
         border-top-right-radius: 40px;
 }
 
-.card2{
-    height: 350px;
-    border-radius: 40px;
-    padding: 5px;
-    margin-bottom: 25px;
-}
-
-.card2 img{
-    max-height: 350px;
-    padding: 8px;
-    width: 35%;
-    border-top-left-radius: 40px;
-    border-bottom-left-radius: 40px;
+.display {
+    font-size: 50px;
 }
 
 
-.card2 .detail2 .title {
-    padding: 30px;
-    font-size: 45px;
-    margin-bottom: 0;
+/*--------------------------------*/
+
+/*Section3 "Les plus populaires*/
+
+    .section3 {
+        width: 92%;
+        background-color: #F2F2F2;
+        padding: 20px;
+        border-radius: 17px;
+        margin-left: 2%;     
+    }
+
+    .card2{
+        height: 350px;
+        border-radius: 40px;
+        padding: 5px;
+        margin-bottom: 25px;
+    }
+    
+    .card2 img{
+        max-height: 350px;
+        padding: 8px;
+        width: 35%;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+    
+    
+    .card2 .detail2 .title {
+        padding: 30px;
+        font-size: 45px;
+        margin-bottom: 0;
+    }
+
+    
+.desc{
+    margin-left: 30px;
+    font-size: 39px;
 }
+
+
+/*--------------------------------*/
+
+/*Section 4 Activité à Marseille*/
+
+    .block_one{
+        width: 96%;
+        margin-bottom: 70px;
+        border-radius: 40px;
+}
+
+    .block_two{
+        width: 96%;
+        margin-bottom: 70px;
+}
+
+
+.block3{
+    flex-direction: column;
+}
+
 .card3{
     border-radius: 40px;
 }
@@ -161,27 +203,26 @@
     padding-left: 30px;
 }
 
-.title {
-    font-size: 60px;
-    margin-bottom: 90px;
+/*--------------------------------*/
+
+/*Pied de page*/
+
+    footer{
+        flex-direction: column;
+        height: 1050px;
+        font-size: 35px;
+    }
+
+    .colune .title{
+        font-size: 40px;
+    }
+
+    .colune {
+        width: 100%;
 }
 
-.display {
-    font-size: 50px;
-}
 
-.desc{
-    margin-left: 30px;
-    font-size: 39px;
-}
+/*--------------------------------*/
 
-.star{
-    font-size: 29px;
-    margin-left: 30px;
-    margin-top: 60px;
-}
-.inscrire{
-    margin-right: 50px;
-}
 }
 
