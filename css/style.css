@@ -11,7 +11,6 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 
 /*Header*/
@@ -19,30 +18,39 @@ body {
 header {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-between;  
 }
 
 /*Style du logo*/
 .logo {
-    width: 5%;
+    width: 100px;
     margin-left: 3%;
+    margin-top: 15px;
 }
+
+
 /*--------------------------------*/
 
 /*Style du menu*/
-nav {
+.menu{
     margin-right: 3%;
+    display: flex;
+    flex-flow: row wrap;
 }
+
+nav {
+    order: 1;
+}
+
 nav li {
     list-style-type: none;
     float: left;
     margin-top: 15px;
 }
 
-.espace{
+.space{
     margin-right: 50px;
 }
-
 
 nav a {
     font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif; 
@@ -55,10 +63,20 @@ nav a:hover {
     color: #0065FC;
     border-top: 3px solid #0065FC;
 }
-.inscrire a{
-    color:  #0065FC;
-}
+
 /*--------------------------------*/
+
+/*Bouton S'inscrire*/
+
+.inscrire{
+    color:  #0065FC;
+    text-decoration: none;
+    font-family: "Raleway_Bold", "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    font-size: 1em;
+    text-decoration: none;
+    margin-top: 30px;
+    order: 2;
+}
 
 /*CSS général*/
 
@@ -99,6 +117,7 @@ button {
 .section1 {
     font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif; 
     margin-left: 3%;
+    margin-top: 30px;
 }
 .section1 h2{
     margin-bottom: 5px;
@@ -268,7 +287,6 @@ button{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    height: 830px;
     margin-top: 40px;
     justify-content: space-evenly;
 }
@@ -287,7 +305,7 @@ button{
 }
 
 .blocks{
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     width: 100%;
 }
@@ -301,6 +319,7 @@ button{
 }
 
 .card{
+    min-width: 340px;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -419,22 +438,80 @@ button{
 
 .section4 {
     font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif; 
-    width: 100%;
+    margin-left: 3%;
 }
 
 .block3 {
     display: flex;
     flex-direction: column; 
+    justify-content: space-between;
     flex-wrap: wrap; 
-    height: 180px;
-    width: 100%;
+    height: 500px;
     margin-left: 3%;
     margin-bottom: 3%;
    }
 
-.card3 img{
-    height: 180px;
-    max-width: 20%;
+.card3 {
+    width: 300px;
+    background-color: white;
+    border-radius: 17px;
+    box-shadow: 0 0 1em grey;
+
+}
+
+.card3_1{
+    height: 500px;
+    width: 300px;
+    object-fit: cover;
+    border-top-left-radius:  17px;
+    border-top-right-radius:  17px;
+}
+
+
+.card3_2{
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
+    border-top-left-radius:  17px;
+    border-top-right-radius:  17px;
+    
+}
+
+.card3_3{
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
+    border-top-left-radius:  17px;
+    border-top-right-radius:  17px;
+    
+}
+
+
+.card3_4{
+    height: 500px;
+    width: 300px;
+    object-fit: cover;
+    border-top-left-radius:  17px;
+    border-top-right-radius:  17px;
+    
+}
+
+.card3_5{
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
+    border-top-left-radius:  17px;
+    border-top-right-radius:  17px;
+    
+}
+
+
+.card3_6{
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
+    border-top-left-radius:  17px;
+    border-top-right-radius:  17px;
 }
 /*
 
@@ -448,16 +525,6 @@ button{
     
    }
 
-.block_one{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 17px;
-    box-shadow: 0 0 1em grey;
-    width: 375px;
-
-   
-}
 
 .card3{
     max-width: 20%;
@@ -467,16 +534,9 @@ button{
     width: 100%;
     border-top-left-radius:  17px;
     border-top-right-radius:  17px;
-    object-fit: cover; 
+     
 }
 
-.block_two{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 375px;
-
-}
 
 .marginright{
     margin-right: 5%;
