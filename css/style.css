@@ -28,6 +28,9 @@ header {
     margin-top: 15px;
 }
 
+.divlogo{
+    width: 80%;
+}
 
 /*--------------------------------*/
 
@@ -435,13 +438,13 @@ button{
 
 .block3 {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     height: 500px;
    }
 
 .card3_1 {
-    min-width: 16%;
+    min-width: 300px;
     width: 16%;
     height: 100%;
     background-color: white;
@@ -451,7 +454,7 @@ button{
 }
 
 .card3_2 {
-    min-width: 16%;
+    min-width: 300px;
     width: 16%;
     height: 40%;
     background-color: white;
