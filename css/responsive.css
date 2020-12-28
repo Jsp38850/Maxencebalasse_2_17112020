@@ -59,34 +59,69 @@
     
     /**Filtre**/
     .titrefilter{
-        margin-top: 12px;
+        margin-top: 15px;
+        margin-bottom: 10px;
         margin-right:20px; 
         width: 90%;
+        font-size: 3.8em;
     }
 
+    .filtre{
+        font-size: 2.5em;
+    }
+
+    .iconemap1 i {
+        height: 90px;
+        width: 90px;
+        border-radius: 50px;
+        font-size: 2em;
+    }
     .general{
         flex-wrap: wrap;
     }
 
     .filter1 {
-        width: 45%;
+        width: 55%;
+        margin-top: 10px;
         
       }
+    
       .filter2 {
         width: 45%;
-        margin-top: 5px;
+        margin-top: 10px;
       }
 
       .filter3 {
         width: 45%;
-        margin-top: 5px;
+        margin-top: 20px;
       }
 
       .filter4 {
         width: 100%;
-        margin-top: 5px;
+        margin-top: 20px;
       }
 
+      .grpfilter1{
+        width: 380px;
+        height: 90px;
+        border-radius: 50px;
+      }
+
+      .grpfilter2{
+        width: 310px;
+        height: 90px;
+        border-radius: 50px;
+      }
+      .grpfilter3{
+        width: 380px;
+        height: 90px;
+        border-radius: 50px;
+      }
+      .grpfilter4{
+        width: 500px;
+        height: 90px;
+        border-radius: 50px;
+      }
    
   /**  
  
