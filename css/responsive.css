@@ -139,7 +139,7 @@
     font-size: 1.5em;
 }
 
-**/
+
 
     .section2{
         background-color: white;
@@ -152,6 +152,25 @@
         order: 2;
     }
 
+    .blocks{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    
+    }
+    
+    .blocks2{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    
+    }
+
+    .card{
+        width: 92%;
+    }
+
+
     .section3{
         width: 92%;
         background-color: #F2F2F2;
@@ -161,5 +180,5 @@
         order: 1;
     }
 
-**/
+
 }
