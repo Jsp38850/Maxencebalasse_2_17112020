@@ -284,7 +284,7 @@ button{
     padding-right: 20px;
 }
 
-.grpfilter:hover {
+.grpfilter1:hover, .grpfilter2:hover, .grpfilter3:hover, .grpfilter4:hover {
     cursor: pointer;
     background-color:  #DEEBFF;
 }
