@@ -1,12 +1,24 @@
 @media all and ( max-device-width : 900px ) {
 
-    .menu{
+    .grpmenu{
         order: 2;
+        font-size: 2em;
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;  
+        border-top: 0px;  
+        padding-bottom: 20px;
     }
 
+    
     .inscrire{
         order: 1;
+        font-size: 2em;
     }
+    
+    
+  /**  
+ 
+
 
     .section2{
         background-color: white;
@@ -28,5 +40,5 @@
         order: 1;
     }
 
-
+**/
 }
