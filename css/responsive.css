@@ -123,9 +123,23 @@
         border-radius: 50px;
       }
    
-  /**  
+  /** Information**/
  
+.information p{
+    margin: 12px;
+    margin-left: 50px;
+    font-size: 2.7em;
+   
+}
 
+.iconeinformation i{
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    font-size: 1.5em;
+}
+
+**/
 
     .section2{
         background-color: white;
