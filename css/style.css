@@ -118,6 +118,7 @@ button {
     font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif; 
     margin-left: 3%;
     margin-right: 3%;
+    width: 100%;
 }
 
 .section1 h2{
@@ -209,10 +210,10 @@ button{
 .general{
     display:flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin-top: 30px;
-    margin-right:20px;
-    width: 100%; 
+    width: 80%;
+
   }
 
   .titrefilter{
@@ -220,15 +221,49 @@ button{
       margin-right:20px; 
   }
 
-  .grpfilter {
+
+  .grpfilter1 {
     border:1px solid;
     border-color: #c0c0c0;
     border-left: none;
     display: flex;
-    max-width: 230px;
     border-radius:25px;
     margin-right:20px; 
-    height: 45px;
+    width: 190px;
+    
+  }
+
+  .grpfilter2 {
+    border:1px solid;
+    border-color: #c0c0c0;
+    border-left: none;
+    display: flex;
+    border-radius:25px;
+    margin-right:20px; 
+    width: 155px;
+    
+  }
+
+  .grpfilter3 {
+    border:1px solid;
+    border-color: #c0c0c0;
+    border-left: none;
+    display: flex;
+    border-radius:25px;
+    margin-right:20px; 
+    width: 190px;
+    
+  }
+
+  .grpfilter4 {
+    border:1px solid;
+    border-color: #c0c0c0;
+    border-left: none;
+    display: flex;
+    border-radius:25px;
+    margin-right:20px; 
+    width: 220px;
+    
   }
   
   .iconemap1 i {

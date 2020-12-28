@@ -64,6 +64,28 @@
         width: 90%;
     }
 
+    .general{
+        flex-wrap: wrap;
+    }
+
+    .filter1 {
+        width: 45%;
+        
+      }
+      .filter2 {
+        width: 45%;
+        margin-top: 5px;
+      }
+
+      .filter3 {
+        width: 45%;
+        margin-top: 5px;
+      }
+
+      .filter4 {
+        width: 100%;
+        margin-top: 5px;
+      }
 
    
   /**  
