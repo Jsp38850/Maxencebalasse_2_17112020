@@ -43,9 +43,29 @@
 
 
     }
+
+    /**Section 1 **/
+
+    .section1 h2{
+        margin-bottom: 5px;
+        font-size: 3.8em;
+        margin-top: 40px;
+    }
     
+    .soustitre{
+        font-size: 1.4em;
+        margin-top: 15px;   
+    }
     
-    
+    /**Filtre**/
+    .titrefilter{
+        margin-top: 12px;
+        margin-right:20px; 
+        width: 90%;
+    }
+
+
+   
   /**  
  
 
