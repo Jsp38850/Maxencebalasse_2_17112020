@@ -2,17 +2,36 @@
 
     .grpmenu{
         order: 2;
-        font-size: 2em;
-        color: #0065FC;
-        border-bottom: 3px solid #0065FC;  
-        border-top: 0px;  
-        padding-bottom: 20px;
+        font-size: 2em;  
+        
+
     }
 
+    .grpmenu a:hover {
+        border-top: 0px;   
+    }
+
+    .menu1 {
+        border-bottom: 3px solid #0065FC; 
+        padding-bottom: 20px; 
+        width: 490px;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .menu2{
+        border-bottom: 3px solid #c2c2c2; 
+        padding-bottom: 20px; 
+        width: 490px;
+        text-align: center;  
+        margin-right: 0;
+        
+    }
     
     .inscrire{
         order: 1;
         font-size: 2em;
+
     }
     
     

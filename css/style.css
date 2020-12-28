@@ -39,7 +39,7 @@ header {
 
 /*Style du menu*/
 
-.menu{
+.menu1, .menu2{
     margin-right: 80px;
     float: left;
 }
