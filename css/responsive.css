@@ -1,11 +1,13 @@
 @media all and ( max-device-width : 900px ) {
 
+    header{
+        flex-wrap: wrap;
+    }
+
     .grpmenu{
         order: 2;
         font-size: 2em;  
         width: 100%;
-        
-
     }
 
     .grpmenu a:hover {
@@ -32,9 +34,9 @@
     .inscrire{
         order: 1;
         font-size: 2em;
-        width: 32%;
+        width: 24%;
         text-align: right;
-        margin-right: 5%;
+
 
     }
     
