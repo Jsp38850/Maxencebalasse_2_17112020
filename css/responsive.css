@@ -32,8 +32,12 @@
     .inscrire{
         order: 1;
         font-size: 2em;
+        width: 32%;
+        text-align: right;
+        margin-right: 5%;
 
     }
+    
     
     
   /**  
