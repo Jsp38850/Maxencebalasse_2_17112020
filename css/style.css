@@ -468,3 +468,72 @@ button{
 .margin2{
     margin-top: 55px;
 }
+
+/*Section 4 Activité à Marseille*/
+
+.section4 {
+    font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+}
+
+.block3 {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 500px;  
+   }
+
+.block3_1 {
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    border-radius: 17px;
+    box-shadow: 0 0 1em grey;
+   }
+
+.card3_1 img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-top-left-radius:  17px;
+    border-top-right-radius:  17px; 
+}
+
+
+.block3_2 {
+    height: 500px;
+    width: 300px;
+    margin-left: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    
+   }
+
+.card3_2{
+    background-color: white;
+    height: 250px;
+    border-radius: 17px;
+    box-shadow: 0 0 1em grey;
+   }
+.card3_2 img{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    border-top-left-radius:  17px;
+    border-top-right-radius:  17px; 
+}
+.card3_3{
+    background-color: white;
+    border-radius: 17px;
+    box-shadow: 0 0 1em grey;
+   }
+.card3_3 img{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    border-top-left-radius:  17px;
+    border-top-right-radius:  17px; 
+}
+
