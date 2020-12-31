@@ -336,7 +336,7 @@ button {
     width: 30%;
     margin-top: 2%;
     padding: 5px;
-    box-shadow: 0 0 1em rgb(165, 165, 165);
+    box-shadow: 0 0 1em #d2d2d2;
 }
 
 .card .detail {
@@ -413,7 +413,7 @@ button {
     border-radius: 17px;
     height: 180px;
     padding: 5px;
-    box-shadow: 0 0 1em rgb(165, 165, 165);
+    box-shadow: 0 0 1em #d2d2d2;
 }
 
 .card2 .detail2 {
@@ -469,7 +469,7 @@ button {
     width: 20%;
     background-color: white;
     border-radius: 17px;
-    box-shadow: 0 0 1em grey;
+    box-shadow: 0 0 1em #d2d2d2;
 }
 
 .card3_1 img {
@@ -494,7 +494,7 @@ button {
     height: 45%;
     background-color: white;
     border-radius: 17px;
-    box-shadow: 0 0 1em grey;
+    box-shadow: 0 0 1em #d2d2d2;
 }
 
 .card3_2 img {
@@ -509,7 +509,7 @@ button {
     background-color: white;
     height: 40%;
     border-radius: 17px;
-    box-shadow: 0 0 1em grey;
+    box-shadow: 0 0 1em #d2d2d2;
 }
 
 .card3_3 img {
@@ -534,7 +534,7 @@ button {
     background-color: white;
     height: 50%;
     border-radius: 17px;
-    box-shadow: 0 0 1em grey;
+    box-shadow: 0 0 1em #d2d2d2;
 }
 
 .card3_4 img {
@@ -549,7 +549,7 @@ button {
     background-color: white;
     height: 40%;
     border-radius: 17px;
-    box-shadow: 0 0 1em grey;
+    box-shadow: 0 0 1em #d2d2d2;
 }
 
 .card3_5 img {
@@ -585,7 +585,8 @@ footer p:hover {
 
 .colune {
     width: 500px;
+    height: 200px;
     min-width: 300px;
     margin-left: 2%;
-    margin-top: 40px;
+    margin-top: 20px;
 }
