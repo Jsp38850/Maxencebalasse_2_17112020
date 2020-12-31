@@ -456,6 +456,10 @@ button {
 
 /*Section 4 Block Général*/
 
+.section4 h2 {
+    padding: 20px 30px;
+}
+
 .block3 {
     display: flex;
     flex-flow: row nowrap;
