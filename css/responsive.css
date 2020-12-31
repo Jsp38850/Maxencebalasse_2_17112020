@@ -190,6 +190,9 @@
         margin-top: 15px;
     }
 /*Section 4 */
+.section4{
+    display: block;
+}
 
     .block3 {
         display: flex;
