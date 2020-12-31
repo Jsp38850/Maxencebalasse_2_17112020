@@ -48,9 +48,14 @@
 
     /**Section 1**/
 
+    .section1{
+        margin-left: 8%;
+        width: 92%;
+    }
+
     .section1 h2{
         margin-bottom: 5px;
-        font-size: 3.8em;
+        font-size: 3.2em;
         margin-top: 40px;
     }
     
@@ -190,28 +195,47 @@
         margin-top: 15px;
     }
 /*Section 4 */
-.section4{
-    display: block;
-}
 
     .block3 {
-        display: flex;
         flex-flow: column nowrap;
-        justify-content: space-between;
-        height: 300px;
+        justify-content: space-around;
        }
 
     .block3_1 {
-        height: 100%;
-        width: 100%;
+        height: 300px;
+        width: 94%;
         margin-top: 15px;
         margin-left: 30px;
         margin-right: 30px;
        }
 
     .block3_2 {
-        height: 100%;
-        width: 100%;
+        height: 600px;
+        width: 94%;
+        margin-top: 15px;
+        margin-left: 30px;
+        margin-right: 30px;
+        
+       }
+
+       .card3_2{ 
+        height: 50%;
+        background-color: white;
+        border-radius: 17px;
+        box-shadow: 0 0 1em grey;
+       }
+
+       .card3_3{ 
+        margin-top: 15px;
+        height: 50%;
+        background-color: white;
+        border-radius: 17px;
+        box-shadow: 0 0 1em grey;
+       }
+
+    .block3_4 {
+        height: 300px;
+        width: 94%;
         margin-top: 15px;
         margin-left: 30px;
         margin-right: 30px;
@@ -219,17 +243,30 @@
        }
 
     .block3_4 {
-        height: 100%;
-        width: 100%;
+        height: 600px;
+        width: 94%;
         margin-top: 15px;
         margin-left: 30px;
         margin-right: 30px;
-        
+       }
+
+       .card3_4{ 
+        height: 50%;
+        background-color: white;
+        border-radius: 17px;
+        box-shadow: 0 0 1em grey;
+       }
+
+       .card3_5{ 
+        margin-top: 15px;
+        height: 50%;
+        background-color: white;
+        border-radius: 17px;
+        box-shadow: 0 0 1em grey;
        }
 
        /*footer*/
        .grpcolune{
-        
         flex-flow: wrap;
     }
 }
