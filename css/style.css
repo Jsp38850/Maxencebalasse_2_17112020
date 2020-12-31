@@ -46,6 +46,7 @@ header {
     margin-right: 20px;
     width: 150px;
     text-align: center;
+    
 }
 
 .grpmenu a {
@@ -104,6 +105,8 @@ button {
 .link {
     text-decoration: none;
     color: black;
+    height:100%;
+    display: block;
 }
 
 /*--------------------------------*/
@@ -112,7 +115,7 @@ button {
 
 .section1 {
     font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif;
-    margin-left: 3%;
+    padding-left: 3%;
     width: 94%;
 }
 
@@ -567,6 +570,8 @@ button {
 .lieu {
     margin-left: 15px;
 }
+
+
 
 /*Pied de page*/
 
