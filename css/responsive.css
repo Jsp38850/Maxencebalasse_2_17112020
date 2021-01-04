@@ -33,10 +33,14 @@
         border-top: 0px;
     }
     .menu1 {
-        border-bottom: 2px solid #0065FC;
+        border-bottom: 2px solid #c2c2c2; 
         padding-bottom: 20px;
         width: 50%;
         margin-right: 0;
+    }
+
+    .menu1:active,  .menu2:active{
+        border-bottom: 2px solid #0065FC;
     }
     .menu2 {
         border-bottom: 2px solid #c2c2c2;
@@ -44,6 +48,7 @@
         width: 50%;
         margin-right: 0;
     }
+
     .inscrire {
         order: 1;
         font-size: 1.5em;
@@ -231,6 +236,7 @@
     .card2 {
         margin-top: 15px;
         height: 150px;
+        width: 100%;
     }
     .card2 .detail2 {
         padding-top: 0;
