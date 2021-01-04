@@ -1,9 +1,7 @@
 @media all and ( max-width: 900px) {
-    
     header {
         flex-wrap: wrap;
     }
-
     .divlogo {
         width: 60%;
         margin-top: 0;
@@ -12,13 +10,10 @@
     .logo {
         width: 120px;
     }
-
-
     .margin {
         margin-top: 40px;
         font-size: 0.8em;
     }
-
     .margin2 {
         margin-top: 40px;
         font-size: 0.8em;
@@ -31,7 +26,7 @@
         margin-top: 20px;
     }
     .grpmenu a {
-        padding-top:0;
+        padding-top: 0;
         font-size: 0.7em;
     }
     .grpmenu a:hover {
@@ -41,14 +36,12 @@
         border-bottom: 2px solid #0065FC;
         padding-bottom: 20px;
         width: 50%;
-        text-align: center;
         margin-right: 0;
     }
     .menu2 {
         border-bottom: 2px solid #c2c2c2;
         padding-bottom: 20px;
         width: 50%;
-        text-align: center;
         margin-right: 0;
     }
     .inscrire {
@@ -59,36 +52,24 @@
     /**Section 1**/
     .section1 {
         padding-left: 20px;
-        width: 92%;
-    }
-    .section1 h2 {
-        margin-bottom: 5px;
-        font-size: 1.5em;
-        margin-top: 40px;
     }
     .soustitre {
         font-size: 1.1em;
         margin-top: 15px;
     }
     /**Filtre**/
+    .general {
+        flex-wrap: wrap;
+    }
     .titrefilter {
         margin-top: 15px;
         margin-bottom: 10px;
-        margin-right: 20px;
         width: 90%;
         font-size: 1.3em;
     }
     .filtre {
         font-size: 1em;
         padding-left: 10px;
-    }
-    .iconemap1 i {
-        height: 45px;
-        width: 45px;
-        border-radius: 50px;
-    }
-    .general {
-        flex-wrap: wrap;
     }
     .filter1 {
         width: 55%;
@@ -129,15 +110,8 @@
     }
     /** Information**/
     .information p {
-        margin: 12px;
         margin-left: 10px;
         font-size: 0.9em;
-    }
-    .iconeinformation i {
-        height: 30px;
-        width: 30px;
-        border-radius: 40px;
-        font-size: 1em;
     }
     /*Section 2*/
     .section2 {
@@ -162,21 +136,18 @@
         margin-top: 15px;
         height: 150px;
     }
-
     .card2 .detail2 {
         padding-top: 0;
     }
-
     .block2_card2 {
-        margin-top:0;    
+        margin-top: 0;
         height: 525px;
     }
     /*Section 4 */
-    .section4{
+    .section4 {
         width: 96%;
         margin-left: 6%;
     }
-
     .section4 h2 {
         padding: 0;
     }
@@ -185,103 +156,87 @@
     }
     .block3_1 {
         height: 180px;
-        width: 92%;    }
-    .card3_1 img{
+        width: 92%;
+    }
+    .card3_1 img {
         height: 130px;
     }
-
-
     .block3_2 {
         height: 360px;
         width: 92%;
         margin-top: 15px;
         margin-bottom: 30px;
     }
-
     .card3_2 {
         height: 180px;
         background-color: white;
         border-radius: 17px;
     }
-
     .card3_2 img {
         height: 130px;
-   }
+    }
     .card3_3 {
         margin-top: 15px;
         height: 180px;
         background-color: white;
         border-radius: 17px;
     }
-
     .card3_3 img {
         height: 130px;
-   }
+    }
     .block3_4 {
         height: 360px;
         width: 92%;
         margin-top: 15px;
-
     }
     .card3_4 {
         height: 180px;
         background-color: white;
         border-radius: 17px;
     }
-
     .card3_4 img {
         height: 130px;
-   }
-
+    }
     .card3_5 {
         margin-top: 15px;
         height: 180px;
         background-color: white;
         border-radius: 17px;
     }
-
     .card3_5 img {
         height: 130px;
-   }
-
-
+    }
     /*footer*/
     .grpcolune {
         flex-flow: wrap;
     }
-
 }
 
 @media all and (min-width: 901px) and (max-width: 1499px) {
-
     .section2 {
         background-color: #F2F2F2;
-                padding: 20px;
+        padding: 20px;
         padding-top: 0;
         border-radius: 17px;
         width: 96%;
         order: 2;
     }
-
-
-/*Section 3*/
-.section3 {
-    width: 100%;
-    background-color:white;
-    border-radius: 0;
-    order: 1;
-}
-.card2 {
-    margin-top: 15px;
-    height: 150px;
-}
-
-.card2 .detail2 {
-    padding-top: 0;
-}
-
-.block2_card2 {
-    margin-top:0;    
-    height: 525px;
-}
+    /*Section 3*/
+    .section3 {
+        width: 100%;
+        background-color: white;
+        border-radius: 0;
+        order: 1;
+    }
+    .card2 {
+        margin-top: 15px;
+        height: 150px;
+    }
+    .card2 .detail2 {
+        padding-top: 0;
+    }
+    .block2_card2 {
+        margin-top: 0;
+        height: 525px;
+    }
 }

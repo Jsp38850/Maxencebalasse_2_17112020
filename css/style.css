@@ -46,7 +46,6 @@ header {
     margin-right: 20px;
     width: 150px;
     text-align: center;
-    
 }
 
 .grpmenu a {
@@ -105,7 +104,7 @@ button {
 .link {
     text-decoration: none;
     color: black;
-    height:100%;
+    height: 100%;
     display: block;
 }
 
@@ -500,7 +499,8 @@ button {
     height: 45%;
     background-color: white;
     border-radius: 17px;
-    box-shadow: 0 0 0.5em #d2d2d2;}
+    box-shadow: 0 0 0.5em #d2d2d2;
+}
 
 .card3_2 img {
     width: 100%;
@@ -514,7 +514,8 @@ button {
     background-color: white;
     height: 40%;
     border-radius: 17px;
-    box-shadow: 0 0 0.5em #d2d2d2;}
+    box-shadow: 0 0 0.5em #d2d2d2;
+}
 
 .card3_3 img {
     width: 100%;
@@ -538,7 +539,8 @@ button {
     background-color: white;
     height: 50%;
     border-radius: 17px;
-    box-shadow: 0 0 0.5em #d2d2d2;}
+    box-shadow: 0 0 0.5em #d2d2d2;
+}
 
 .card3_4 img {
     width: 100%;
@@ -552,7 +554,8 @@ button {
     background-color: white;
     height: 40%;
     border-radius: 17px;
-    box-shadow: 0 0 0.5em #d2d2d2;}
+    box-shadow: 0 0 0.5em #d2d2d2;
+}
 
 .card3_5 img {
     width: 100%;
@@ -565,8 +568,6 @@ button {
 .lieu {
     margin-left: 15px;
 }
-
-
 
 /*Pied de page*/
 
