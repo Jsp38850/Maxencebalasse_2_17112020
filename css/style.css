@@ -133,6 +133,8 @@ button {
 
 .Search_bar {
     display: flex;
+    flex-direction: row;
+    height: 45px;
 }
 
 #pseudo::placeholder {
@@ -141,29 +143,16 @@ button {
     font-size: 15px;
 }
 
-.iconeinput {
+input {
     border: solid;
     border-width: 1px;
     border-color: #F2F2F2;
-    display: flex;
-    flex-direction: row;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-}
-
-input {
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px;
-    border: none;
-    display: flex;
-    align-items: center;
     padding-left: 15px;
-    width: 250px;
+    width: 180px;
 }
 
 .iconemap {
     background-color: #F2F2F2;
-    height: 45px;
     width: 60px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -202,7 +191,6 @@ button {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin-top: 30px;
     width: 80%;
 }
 

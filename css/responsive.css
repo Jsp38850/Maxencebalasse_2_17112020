@@ -62,6 +62,16 @@
         font-size: 1.1em;
         margin-top: 15px;
     }
+
+    .btn1{
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+        font-size: 0;
+        width: 45px;
+        background-image: url(../img/loupe.png); 
+        background-repeat: no-repeat;
+        background-position: center;
+    }
     /**Filtre**/
     .general {
         flex-wrap: wrap;
@@ -216,6 +226,8 @@
         flex-flow: wrap;
     }
 }
+
+/*Responsive entre 901px & 1499px*/
 
 @media all and (min-width: 901px) and (max-width: 1499px) {
     .section2 {
