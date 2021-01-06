@@ -75,6 +75,7 @@
     /**Filtre**/
     .general {
         flex-wrap: wrap;
+        margin-top: 0;
     }
     .titrefilter {
         margin-top: 15px;
