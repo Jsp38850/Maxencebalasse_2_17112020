@@ -166,6 +166,7 @@ button {
 }
 
 .btn1 {
+    font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif;
     background-color: #0065FC;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
