@@ -376,7 +376,7 @@ button {
 .section3 {
     font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif;
     width: 25%;
-    min-width: 280px;
+    min-width: 400px;
     background-color: #F2F2F2;
     padding: 20px 30px;
     border-radius: 30px;
@@ -412,6 +412,7 @@ button {
     background-color: white;
     border-radius: 17px;
     height: 180px;
+    min-width: 370px;
     padding: 5px;
     box-shadow: 0 0 1em #d2d2d2;
 }

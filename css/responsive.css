@@ -71,8 +71,7 @@
     #search span {
         display: none;
     }
-
-    input{
+    input {
         width: 60%;
         max-width: 250px;
     }
@@ -129,15 +128,14 @@
         border-radius: 50px;
     }
     /** Information**/
-    .iconeinformation{
+    .iconeinformation {
         min-width: 25px;
         min-height: 25px;
     }
     .information p {
         margin-left: 10px;
     }
-
-    .container{
+    .container {
         margin-top: 20px;
     }
     /*Section 2*/
@@ -149,7 +147,7 @@
         width: 96%;
         order: 2;
     }
-    .titlesection2{
+    .titlesection2 {
         margin-left: 0;
         font-size: 1.5em;
     }
@@ -164,7 +162,7 @@
         margin-top: 2px;
         margin-bottom: 2px;
     }
-    .display{
+    .display {
         margin-left: 0;
     }
     /*Section 3*/
@@ -173,16 +171,17 @@
         width: 96%;
         border-radius: 0;
         order: 1;
+        min-width: 0;
     }
     .card2 {
         margin-top: 15px;
         height: 150px;
+        min-width: 0;
     }
-    .titlesection3{
+    .titlesection3 {
         padding-left: 0;
     }
-
-    .haut i{
+    .haut i {
         right: 0;
     }
     .card2 .detail2 {
@@ -194,7 +193,6 @@
         height: 525px;
         width: 100%;
     }
-
     .card2 img {
         width: 35%;
     }
@@ -259,8 +257,7 @@
     .card3_5 img {
         height: 130px;
     }
-
-    .lieu{
+    .lieu {
         margin-top: 10px;
     }
     /*footer*/
@@ -268,8 +265,7 @@
         flex-wrap: wrap;
         padding-left: 30px;
     }
-
-    .colune{
+    .colune {
         height: 150px;
     }
 }
@@ -314,7 +310,6 @@
     }
     .margin2 {
         margin-top: 40px;
-        
     }
     .block3 {
         flex-wrap: wrap;
