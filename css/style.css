@@ -103,7 +103,7 @@ button {
 .star {
     color: blue;
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 0.9em;
 }
 
 .disable {
@@ -320,7 +320,7 @@ button {
 
 .titlesection2 {
     margin-left: 28px;
-    font-size: 25px;
+    font-size: 1.6em;
     color: black;
     margin-bottom: 5px;
 }
@@ -358,7 +358,7 @@ button {
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: "Raleway_bold", sans-serif;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .display {
