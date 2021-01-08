@@ -363,7 +363,7 @@ button {
 
 .display {
     margin-top: 40px;
-    font-size: 23px;
+    font-size: 1.3em;
     display: block;
     margin-left: 30px;
     padding-bottom: 20px;
@@ -598,7 +598,7 @@ footer p:hover {
 .grpcolune {
     display: flex;
     flex-flow: row nowrap;
-    margin-left: 85px;
+    padding-left: 85px;
 }
 
 .colune {
