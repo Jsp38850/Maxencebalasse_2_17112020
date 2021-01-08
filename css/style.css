@@ -1,12 +1,20 @@
+/*Police Principal*/
+
 @font-face {
     font-family: "Raleway";
     src: url('../font/Raleway-VariableFont_wght.ttf');
 }
 
+/*--------------------------------*/
+
+/*Police Gras*/
+
 @font-face {
     font-family: "Raleway_Bold";
     src: url('../font/raleway-bold.ttf')
 }
+
+/*--------------------------------*/
 
 body {
     margin: 0;
@@ -95,6 +103,7 @@ button {
 .star {
     color: blue;
     margin-top: 10px;
+    font-size: 14px;
 }
 
 .disable {
@@ -134,7 +143,7 @@ button {
 .Search_bar {
     display: flex;
     flex-direction: row;
-    height: 45px;
+    height: 50px;
 }
 
 #pseudo::placeholder {
@@ -153,12 +162,11 @@ input {
 
 .iconemap {
     background-color: #F2F2F2;
-    width: 60px;
+    width: 50px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    padding-top: 14px;
 }
 
 button {
@@ -179,18 +187,19 @@ button {
     margin-left: -20px;
 }
 
-#search i{
-    display: none;
-}
 .btn1:hover {
     background-color: #DEEBFF;
     color: black;
     cursor: pointer;
 }
 
+#search i {
+    display: none;
+}
+
 /*--------------------------------*/
 
-/*Filtre*/
+/*Filtre Section 1*/
 
 .general {
     display: flex;
@@ -203,67 +212,7 @@ button {
 .titrefilter {
     margin-top: 12px;
     margin-right: 20px;
-}
-
-.grpfilter1 {
-    border: 1px solid;
-    border-color: #c0c0c0;
-    border-left: none;
-    display: flex;
-    border-radius: 25px;
-    margin-right: 20px;
-    width: 190px;
-}
-
-.grpfilter2 {
-    border: 1px solid;
-    border-color: #c0c0c0;
-    border-left: none;
-    display: flex;
-    border-radius: 25px;
-    margin-right: 20px;
-    width: 155px;
-}
-
-.grpfilter3 {
-    border: 1px solid;
-    border-color: #c0c0c0;
-    border-left: none;
-    display: flex;
-    border-radius: 25px;
-    margin-right: 20px;
-    width: 190px;
-}
-
-.grpfilter4 {
-    border: 1px solid;
-    border-color: #c0c0c0;
-    border-left: none;
-    display: flex;
-    border-radius: 25px;
-    margin-right: 20px;
-    width: 220px;
-}
-
-.iconemap1{
-    background-color: #DEEBFF;
-    height: 45px;
-    width: 45px;
-    border-radius: 25px;
-    position: relative;
-}
-.iconemap1 i {
-    position: absolute;
-    top: 13px;
-    left: 13px;
-    color: #0065FC;
-}
-
-.filtre {
-    border-radius: 25px;
-    border: none;
-    padding-left: 20px;
-    padding-right: 20px;
+    font-size: 19px;
 }
 
 .grpfilter1:hover, .grpfilter2:hover, .grpfilter3:hover, .grpfilter4:hover {
@@ -271,9 +220,54 @@ button {
     background-color: #DEEBFF;
 }
 
+.grpfilter1, .grpfilter2, .grpfilter3, .grpfilter4 {
+    border: 1.5px solid;
+    border-color: #c0c0c0;
+    border-left: none;
+    display: flex;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+.grpfilter1 {
+    width: 190px;
+}
+
+.grpfilter2 {
+    width: 155px;
+}
+
+.grpfilter3 {
+    width: 190px;
+}
+
+.grpfilter4 {
+    width: 235px;
+}
+
+.iconemap1 {
+    background-color: #DEEBFF;
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.iconemap1 i {
+    color: #0065FC;
+    padding-top: 14px;
+}
+
+.filtre {
+    border-radius: 25px;
+    border: none;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
 /*------------------------------*/
 
-/*Ligne information*/
+/*Ligne information Section 1*/
 
 .information {
     display: flex;
@@ -281,15 +275,17 @@ button {
     margin-top: 30px;
 }
 
-.iconeinformation i {
+.iconeinformation {
+    text-align: center;
     border: 1px solid grey;
     height: 25px;
     width: 25px;
     border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-top: 7px;
+}
+
+.iconeinformation i {
+    padding-top: 4px;
     color: blue;
 }
 
@@ -300,7 +296,7 @@ button {
 
 /*--------------------------------*/
 
-/*Block3 Hebergement+Populaire*/
+/*Section Hebergement+Populaire*/
 
 .container {
     display: flex;
@@ -320,6 +316,13 @@ button {
     background-color: #F2F2F2;
     padding: 20px 30px;
     border-radius: 30px;
+}
+
+.titlesection2 {
+    margin-left: 28px;
+    font-size: 25px;
+    color: black;
+    margin-bottom: 5px;
 }
 
 .blocks {
@@ -348,10 +351,10 @@ button {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     object-fit: cover;
-    max-height: 180px;
+    height: 160px;
 }
 
-.card .detail .title {
+.detail h3 {
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: "Raleway_bold", sans-serif;
@@ -359,16 +362,16 @@ button {
 }
 
 .display {
-    margin-top: 30px;
-    font-size: 20px;
+    margin-top: 40px;
+    font-size: 23px;
     display: block;
+    margin-left: 30px;
+    padding-bottom: 20px;
 }
 
 /*--------------------------------*/
 
 /*Section3 "Les plus populaires*/
-
-/*Block général*/
 
 .section3 {
     font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -379,30 +382,29 @@ button {
     border-radius: 30px;
 }
 
-/*Block titre */
+.titlesection3 {
+    padding-left: 20px;
+}
 
 .haut {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    position: relative;
 }
 
 .haut i {
-    margin-top: 25px;
     font-size: 25px;
+    position: absolute;
+    right: 30px;
+    top: 0px;
 }
-
-/*Block Image + texte 1 */
 
 .block2_card2 {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 92%;
     height: 90%;
-    margin-top: 2%;
+    margin-top: 6%;
+    margin-left: 18px;
 }
-
-/*Image Block 1*/
 
 .card2 {
     display: flex;
@@ -429,7 +431,7 @@ button {
     max-height: 180px;
 }
 
-.card2 .detail2 .title {
+.detail2 h3 {
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: "Raleway_bold", sans-serif;
@@ -444,15 +446,16 @@ button {
     margin-top: 55px;
 }
 
+/*--------------------------------*/
+
 /*Section 4 Activité à Marseille*/
 
 .section4 {
     font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif;
     margin-left: 3%;
+    margin-top: 35px;
     width: 94%;
 }
-
-/*Section 4 Block Général*/
 
 .section4 h2 {
     padding: 20px 30px;
@@ -468,7 +471,7 @@ button {
 
 .block3_1 {
     height: 600px;
-    width: 20%;
+    width: 22%;
     background-color: white;
     border-radius: 17px;
     box-shadow: 0 0 0.5em #d2d2d2;
@@ -476,7 +479,7 @@ button {
 
 .card3_1 img {
     width: 100%;
-    height: 90%;
+    height: 88%;
     object-fit: cover;
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
@@ -486,14 +489,14 @@ button {
 
 .block3_2 {
     height: 600px;
-    width: 20%;
+    width: 22%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
 }
 
 .card3_2 {
-    height: 45%;
+    height: 55%;
     background-color: white;
     border-radius: 17px;
     box-shadow: 0 0 0.5em #d2d2d2;
@@ -509,14 +512,14 @@ button {
 
 .card3_3 {
     background-color: white;
-    height: 40%;
+    height: 35%;
     border-radius: 17px;
     box-shadow: 0 0 0.5em #d2d2d2;
 }
 
 .card3_3 img {
     width: 100%;
-    height: 80%;
+    height: 66%;
     object-fit: cover;
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
@@ -526,7 +529,7 @@ button {
 
 .block3_4 {
     height: 600px;
-    width: 20%;
+    width: 22%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
@@ -541,7 +544,7 @@ button {
 
 .card3_4 img {
     width: 100%;
-    height: 80%;
+    height: 75%;
     object-fit: cover;
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
@@ -556,7 +559,7 @@ button {
 
 .card3_5 img {
     width: 100%;
-    height: 80%;
+    height: 70%;
     object-fit: cover;
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
@@ -564,7 +567,10 @@ button {
 
 .lieu {
     margin-left: 15px;
+    font-size: 20px;
 }
+
+/*--------------------------------*/
 
 /*Pied de page*/
 
@@ -572,6 +578,11 @@ footer {
     font-family: "Raleway", "Trebuchet MS", Arial, Helvetica, sans-serif;
     background-color: #f2f2f2;
     margin-top: 60px;
+    width: 100%;
+}
+
+.titlefooter {
+    font-size: 20px;
 }
 
 footer p:hover {
@@ -582,13 +593,16 @@ footer p:hover {
 .grpcolune {
     display: flex;
     flex-flow: row nowrap;
-    width: 100%;
+    margin-left: 85px;
 }
 
 .colune {
     width: 500px;
     height: 200px;
     min-width: 300px;
-    margin-left: 2%;
     margin-top: 20px;
+}
+
+.colune p {
+    font-size: 17px;
 }

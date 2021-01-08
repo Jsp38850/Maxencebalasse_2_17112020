@@ -162,6 +162,7 @@
     .block2_card2 {
         margin-top: 0;
         height: 525px;
+        width: 100%;
     }
     /*Section 4 */
     .section4 {
@@ -261,5 +262,6 @@
     .block2_card2 {
         margin-top: 0;
         height: 525px;
+        width: 100%;
     }
 }
