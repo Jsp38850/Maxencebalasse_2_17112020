@@ -1,4 +1,4 @@
-@media all and ( max-width: 900px) {
+ @media all and ( max-width: 900px) {
     /*Header*/
     header {
         flex-wrap: wrap;
@@ -40,8 +40,9 @@
         width: 50%;
         margin-right: 0;
     }
-    .menu1:active, .menu2:active {
+    .menu1, .menu2:hover {
         border-bottom: 2px solid #0065FC;
+        color: #0065FC; ;
     }
     /*Bouton S'inscrire*/
     .inscrire {
@@ -175,6 +176,7 @@
         margin-top: 15px;
         height: 150px;
         min-width: 0;
+        width: 100%;
     }
     .titlesection3 {
         padding-left: 0;
